@@ -1,0 +1,94 @@
+{
+ "slug": "sec-form-d-funding-leads",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "filingDate",
+   "oldest": "2026-10-09",
+   "newest": "2026-10-09",
+   "numeric": {
+    "column": "totalOfferingAmount",
+    "withValue": 57,
+    "min": 2132.0,
+    "median": 2250003.0,
+    "max": 238800000.0,
+    "sum": 855148060.0
+   },
+   "top": {
+    "industryGroup": [
+     [
+      "Other",
+      16
+     ],
+     [
+      "Other Technology",
+      11
+     ],
+     [
+      "Other Real Estate",
+      7
+     ],
+     [
+      "Business Services",
+      6
+     ],
+     [
+      "Manufacturing",
+      4
+     ],
+     [
+      "Residential",
+      3
+     ],
+     [
+      "Commercial",
+      3
+     ],
+     [
+      "Other Banking and Financial Services",
+      3
+     ]
+    ],
+    "issuerState": [
+     [
+      "CA",
+      13
+     ],
+     [
+      "FL",
+      9
+     ],
+     [
+      "TX",
+      8
+     ],
+     [
+      "NY",
+      6
+     ],
+     [
+      "NC",
+      2
+     ]
+    ],
+    "entityType": [
+     [
+      "Corporation",
+      31
+     ],
+     [
+      "Limited Liability Company",
+      27
+     ],
+     [
+      "Limited Partnership",
+      2
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "city-council-agendas",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "meetingDate",
+   "oldest": "2026-10-06",
+   "newest": "2026-10-07",
+   "top": {
+    "matterType": [
+     [
+      "Resolution",
+      37
+     ],
+     [
+      "Bill",
+      6
+     ]
+    ],
+    "body": [
+     [
+      "Mayor-Council",
+      31
+     ],
+     [
+      "Parks, Art and Culture",
+      20
+     ],
+     [
+      "Finance and Business",
+      4
+     ],
+     [
+      "Governance and Intergovernmental Relations",
+      3
+     ],
+     [
+      "Health and Safety",
+      2
+     ]
+    ],
+    "voteResult": [
+     [
+      "Pass",
+      17
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

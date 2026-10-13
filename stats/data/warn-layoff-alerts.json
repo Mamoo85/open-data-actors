@@ -1,0 +1,74 @@
+{
+ "slug": "warn-layoff-alerts",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "notice_date",
+   "oldest": "2026-06-16",
+   "newest": "2026-10-06",
+   "numeric": {
+    "column": "layoff_count",
+    "withValue": 60,
+    "min": 1.0,
+    "median": 5.0,
+    "max": 1279.0,
+    "sum": 3817.0
+   },
+   "top": {
+    "state": [
+     [
+      "CA",
+      3483.0
+     ],
+     [
+      "TX",
+      334.0
+     ]
+    ],
+    "layoff_type": [
+     [
+      "Layoff Permanent",
+      43
+     ],
+     [
+      "Closure Permanent",
+      8
+     ],
+     [
+      "Closure Temporary",
+      5
+     ],
+     [
+      "Layoff Not known at this time",
+      2
+     ]
+    ],
+    "county": [
+     [
+      "Los Angeles",
+      34
+     ],
+     [
+      "Ventura",
+      6
+     ],
+     [
+      "Alameda",
+      4
+     ],
+     [
+      "Kern",
+      3
+     ],
+     [
+      "San Diego",
+      2
+     ]
+    ]
+   },
+   "topMetric": "sum:layoff_count"
+  }
+ }
+}

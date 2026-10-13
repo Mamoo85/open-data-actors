@@ -1,0 +1,90 @@
+{
+ "slug": "building-permits-leads",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "issueDate",
+   "oldest": "2026-10-09",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "valuation",
+    "withValue": 45,
+    "min": 0.0,
+    "median": 36393.0,
+    "max": 57000000.0,
+    "sum": 68807569.0
+   },
+   "top": {
+    "permitType": [
+     [
+      "EXPRESS PERMIT PROGRAM",
+      20
+     ],
+     [
+      "Building - Addition/Alteration",
+      9
+     ],
+     [
+      "Building Permit",
+      9
+     ],
+     [
+      "Building - New",
+      7
+     ],
+     [
+      "Plumbing Permit",
+      7
+     ],
+     [
+      "Demolition",
+      2
+     ],
+     [
+      "Roof",
+      2
+     ],
+     [
+      "Electrical Permit",
+      2
+     ]
+    ],
+    "city": [
+     [
+      "Chicago",
+      20
+     ],
+     [
+      "Seattle",
+      20
+     ],
+     [
+      "Austin",
+      20
+     ]
+    ],
+    "status": [
+     [
+      "ACTIVE",
+      20
+     ],
+     [
+      "Issued",
+      20
+     ],
+     [
+      "Active",
+      19
+     ],
+     [
+      "Final",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

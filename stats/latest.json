@@ -1,0 +1,712 @@
+{
+ "month": "2026-10",
+ "generatedAt": "2026-10-13",
+ "stats": {
+  "warn-layoff-alerts": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "notice_date",
+   "oldest": "2026-06-16",
+   "newest": "2026-10-06",
+   "numeric": {
+    "column": "layoff_count",
+    "withValue": 60,
+    "min": 1.0,
+    "median": 5.0,
+    "max": 1279.0,
+    "sum": 3817.0
+   },
+   "top": {
+    "state": [
+     [
+      "CA",
+      3483.0
+     ],
+     [
+      "TX",
+      334.0
+     ]
+    ],
+    "layoff_type": [
+     [
+      "Layoff Permanent",
+      43
+     ],
+     [
+      "Closure Permanent",
+      8
+     ],
+     [
+      "Closure Temporary",
+      5
+     ],
+     [
+      "Layoff Not known at this time",
+      2
+     ]
+    ],
+    "county": [
+     [
+      "Los Angeles",
+      34
+     ],
+     [
+      "Ventura",
+      6
+     ],
+     [
+      "Alameda",
+      4
+     ],
+     [
+      "Kern",
+      3
+     ],
+     [
+      "San Diego",
+      2
+     ]
+    ]
+   },
+   "topMetric": "sum:layoff_count"
+  },
+  "fmcsa-new-carrier-leads": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "registered_date_iso",
+   "oldest": "2026-10-10",
+   "newest": "2026-10-12",
+   "numeric": {
+    "column": "power_units",
+    "withValue": 60,
+    "min": 0.0,
+    "median": 1.0,
+    "max": 6825.0,
+    "sum": 6916.0
+   },
+   "top": {
+    "state": [
+     [
+      "TX",
+      6
+     ],
+     [
+      "NC",
+      6
+     ],
+     [
+      "MN",
+      5
+     ],
+     [
+      "FL",
+      5
+     ],
+     [
+      "GA",
+      4
+     ],
+     [
+      "NY",
+      3
+     ],
+     [
+      "CA",
+      3
+     ],
+     [
+      "MI",
+      3
+     ]
+    ],
+    "carrier_operation_label": [
+     [
+      "Interstate",
+      41
+     ],
+     [
+      "Intrastate (Non-Hazmat)",
+      19
+     ]
+    ],
+    "fleet_size_class": [
+     [
+      "1-5 units",
+      24
+     ],
+     [
+      "6-20 units",
+      23
+     ],
+     [
+      "21-100 units",
+      3
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "federal-grants-contracts": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedDate",
+   "oldest": "2020-10-15",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "amountCeiling",
+    "withValue": 26,
+    "min": 85000.0,
+    "median": 500000.0,
+    "max": 62500000.0,
+    "sum": 114497185.0
+   },
+   "top": {
+    "agencyCode": [
+     [
+      "HHS-NIH11",
+      42
+     ],
+     [
+      "NSF",
+      5
+     ],
+     [
+      "DOE-ID",
+      2
+     ],
+     [
+      "DOS-TUN",
+      2
+     ],
+     [
+      "DOS-ITA",
+      2
+     ],
+     [
+      "DOS-PHL",
+      1
+     ],
+     [
+      "DOS-ET",
+      1
+     ],
+     [
+      "DOD-WHS",
+      1
+     ]
+    ],
+    "recordType": [
+     [
+      "opportunity",
+      60
+     ]
+    ],
+    "status": [
+     [
+      "posted",
+      52
+     ],
+     [
+      "forecasted",
+      8
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "city-council-agendas": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "meetingDate",
+   "oldest": "2026-10-06",
+   "newest": "2026-10-07",
+   "top": {
+    "matterType": [
+     [
+      "Resolution",
+      37
+     ],
+     [
+      "Bill",
+      6
+     ]
+    ],
+    "body": [
+     [
+      "Mayor-Council",
+      31
+     ],
+     [
+      "Parks, Art and Culture",
+      20
+     ],
+     [
+      "Finance and Business",
+      4
+     ],
+     [
+      "Governance and Intergovernmental Relations",
+      3
+     ],
+     [
+      "Health and Safety",
+      2
+     ]
+    ],
+    "voteResult": [
+     [
+      "Pass",
+      17
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "sec-form-d-funding-leads": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "filingDate",
+   "oldest": "2026-10-09",
+   "newest": "2026-10-09",
+   "numeric": {
+    "column": "totalOfferingAmount",
+    "withValue": 57,
+    "min": 2132.0,
+    "median": 2250003.0,
+    "max": 238800000.0,
+    "sum": 855148060.0
+   },
+   "top": {
+    "industryGroup": [
+     [
+      "Other",
+      16
+     ],
+     [
+      "Other Technology",
+      11
+     ],
+     [
+      "Other Real Estate",
+      7
+     ],
+     [
+      "Business Services",
+      6
+     ],
+     [
+      "Manufacturing",
+      4
+     ],
+     [
+      "Residential",
+      3
+     ],
+     [
+      "Commercial",
+      3
+     ],
+     [
+      "Other Banking and Financial Services",
+      3
+     ]
+    ],
+    "issuerState": [
+     [
+      "CA",
+      13
+     ],
+     [
+      "FL",
+      9
+     ],
+     [
+      "TX",
+      8
+     ],
+     [
+      "NY",
+      6
+     ],
+     [
+      "NC",
+      2
+     ]
+    ],
+    "entityType": [
+     [
+      "Corporation",
+      31
+     ],
+     [
+      "Limited Liability Company",
+      27
+     ],
+     [
+      "Limited Partnership",
+      2
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "new-business-filings": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "filingDate",
+   "oldest": "2026-10-12",
+   "newest": "2026-10-13",
+   "top": {
+    "entityType": [
+     [
+      "LLC",
+      50
+     ],
+     [
+      "CORPORATION",
+      8
+     ],
+     [
+      "NONPROFIT",
+      2
+     ]
+    ],
+    "state": [
+     [
+      "CO",
+      15
+     ],
+     [
+      "NY",
+      15
+     ],
+     [
+      "OR",
+      15
+     ],
+     [
+      "CT",
+      15
+     ]
+    ],
+    "status": [
+     [
+      "Good Standing",
+      15
+     ],
+     [
+      "Active",
+      15
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "building-permits-leads": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "issueDate",
+   "oldest": "2026-10-09",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "valuation",
+    "withValue": 45,
+    "min": 0.0,
+    "median": 36393.0,
+    "max": 57000000.0,
+    "sum": 68807569.0
+   },
+   "top": {
+    "permitType": [
+     [
+      "EXPRESS PERMIT PROGRAM",
+      20
+     ],
+     [
+      "Building - Addition/Alteration",
+      9
+     ],
+     [
+      "Building Permit",
+      9
+     ],
+     [
+      "Building - New",
+      7
+     ],
+     [
+      "Plumbing Permit",
+      7
+     ],
+     [
+      "Demolition",
+      2
+     ],
+     [
+      "Roof",
+      2
+     ],
+     [
+      "Electrical Permit",
+      2
+     ]
+    ],
+    "city": [
+     [
+      "Chicago",
+      20
+     ],
+     [
+      "Seattle",
+      20
+     ],
+     [
+      "Austin",
+      20
+     ]
+    ],
+    "status": [
+     [
+      "ACTIVE",
+      20
+     ],
+     [
+      "Issued",
+      20
+     ],
+     [
+      "Active",
+      19
+     ],
+     [
+      "Final",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "developer-signals": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 47,
+   "dateColumn": "createdAt",
+   "oldest": "2026-07-20",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "points",
+    "withValue": 43,
+    "min": 1.0,
+    "median": 2.0,
+    "max": 277.0,
+    "sum": 756.0
+   },
+   "top": {
+    "source": [
+     [
+      "hackernews",
+      43
+     ],
+     [
+      "npm",
+      2
+     ],
+     [
+      "pypi",
+      2
+     ]
+    ],
+    "recordType": [
+     [
+      "story",
+      43
+     ],
+     [
+      "package",
+      4
+     ]
+    ],
+    "kind": [
+     [
+      "showHn",
+      24
+     ],
+     [
+      "story",
+      18
+     ],
+     [
+      "askHn",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "ats-open-roles": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedAt",
+   "oldest": "2026-09-28",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "salaryMin",
+    "withValue": 34,
+    "min": 39000.0,
+    "median": 174000.0,
+    "max": 377000.0,
+    "sum": 5693000.0
+   },
+   "top": {
+    "department": [
+     [
+      "Sales",
+      9
+     ],
+     [
+      "Software Engineering",
+      7
+     ],
+     [
+      "Business Development",
+      6
+     ],
+     [
+      "Engineering",
+      6
+     ],
+     [
+      "Product",
+      5
+     ],
+     [
+      "Markets and Subscriber Growth",
+      4
+     ],
+     [
+      "Marketing",
+      3
+     ],
+     [
+      "Advertising",
+      3
+     ]
+    ],
+    "ats": [
+     [
+      "greenhouse",
+      20
+     ],
+     [
+      "lever",
+      20
+     ],
+     [
+      "ashby",
+      20
+     ]
+    ],
+    "seniority": [
+     [
+      "mid",
+      21
+     ],
+     [
+      "manager",
+      16
+     ],
+     [
+      "lead",
+      11
+     ],
+     [
+      "senior",
+      10
+     ],
+     [
+      "director",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  },
+  "workday-jobs-scraper": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedOn",
+   "oldest": "2026-05-18",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "salaryMin",
+    "withValue": 7,
+    "min": 54500.0,
+    "median": 117400.0,
+    "max": 197300.0,
+    "sum": 971400.0
+   },
+   "top": {
+    "remoteType": [
+     [
+      "Remote",
+      10
+     ],
+     [
+      "Office Tech-Flexible",
+      3
+     ],
+     [
+      "Office - Flexible",
+      3
+     ],
+     [
+      "Remote Home-Based",
+      1
+     ],
+     [
+      "Office - Based",
+      1
+     ]
+    ],
+    "timeType": [
+     [
+      "Full time",
+      20
+     ]
+    ],
+    "country": [
+     [
+      "United States of America",
+      12
+     ],
+     [
+      "India",
+      2
+     ],
+     [
+      "Vietnam",
+      1
+     ],
+     [
+      "Poland",
+      1
+     ],
+     [
+      "China",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

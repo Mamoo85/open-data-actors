@@ -1,0 +1,94 @@
+{
+ "slug": "ats-open-roles",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedAt",
+   "oldest": "2026-09-28",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "salaryMin",
+    "withValue": 34,
+    "min": 39000.0,
+    "median": 174000.0,
+    "max": 377000.0,
+    "sum": 5693000.0
+   },
+   "top": {
+    "department": [
+     [
+      "Sales",
+      9
+     ],
+     [
+      "Software Engineering",
+      7
+     ],
+     [
+      "Business Development",
+      6
+     ],
+     [
+      "Engineering",
+      6
+     ],
+     [
+      "Product",
+      5
+     ],
+     [
+      "Markets and Subscriber Growth",
+      4
+     ],
+     [
+      "Marketing",
+      3
+     ],
+     [
+      "Advertising",
+      3
+     ]
+    ],
+    "ats": [
+     [
+      "greenhouse",
+      20
+     ],
+     [
+      "lever",
+      20
+     ],
+     [
+      "ashby",
+      20
+     ]
+    ],
+    "seniority": [
+     [
+      "mid",
+      21
+     ],
+     [
+      "manager",
+      16
+     ],
+     [
+      "lead",
+      11
+     ],
+     [
+      "senior",
+      10
+     ],
+     [
+      "director",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "federal-grants-contracts",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedDate",
+   "oldest": "2020-10-15",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "amountCeiling",
+    "withValue": 26,
+    "min": 85000.0,
+    "median": 500000.0,
+    "max": 62500000.0,
+    "sum": 114497185.0
+   },
+   "top": {
+    "agencyCode": [
+     [
+      "HHS-NIH11",
+      42
+     ],
+     [
+      "NSF",
+      5
+     ],
+     [
+      "DOE-ID",
+      2
+     ],
+     [
+      "DOS-TUN",
+      2
+     ],
+     [
+      "DOS-ITA",
+      2
+     ],
+     [
+      "DOS-PHL",
+      1
+     ],
+     [
+      "DOS-ET",
+      1
+     ],
+     [
+      "DOD-WHS",
+      1
+     ]
+    ],
+    "recordType": [
+     [
+      "opportunity",
+      60
+     ]
+    ],
+    "status": [
+     [
+      "posted",
+      52
+     ],
+     [
+      "forecasted",
+      8
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

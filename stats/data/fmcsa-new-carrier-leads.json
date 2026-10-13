@@ -1,0 +1,82 @@
+{
+ "slug": "fmcsa-new-carrier-leads",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "registered_date_iso",
+   "oldest": "2026-10-10",
+   "newest": "2026-10-12",
+   "numeric": {
+    "column": "power_units",
+    "withValue": 60,
+    "min": 0.0,
+    "median": 1.0,
+    "max": 6825.0,
+    "sum": 6916.0
+   },
+   "top": {
+    "state": [
+     [
+      "TX",
+      6
+     ],
+     [
+      "NC",
+      6
+     ],
+     [
+      "MN",
+      5
+     ],
+     [
+      "FL",
+      5
+     ],
+     [
+      "GA",
+      4
+     ],
+     [
+      "NY",
+      3
+     ],
+     [
+      "CA",
+      3
+     ],
+     [
+      "MI",
+      3
+     ]
+    ],
+    "carrier_operation_label": [
+     [
+      "Interstate",
+      41
+     ],
+     [
+      "Intrastate (Non-Hazmat)",
+      19
+     ]
+    ],
+    "fleet_size_class": [
+     [
+      "1-5 units",
+      24
+     ],
+     [
+      "6-20 units",
+      23
+     ],
+     [
+      "21-100 units",
+      3
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

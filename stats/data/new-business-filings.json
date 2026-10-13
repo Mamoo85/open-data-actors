@@ -1,0 +1,58 @@
+{
+ "slug": "new-business-filings",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "filingDate",
+   "oldest": "2026-10-12",
+   "newest": "2026-10-13",
+   "top": {
+    "entityType": [
+     [
+      "LLC",
+      50
+     ],
+     [
+      "CORPORATION",
+      8
+     ],
+     [
+      "NONPROFIT",
+      2
+     ]
+    ],
+    "state": [
+     [
+      "CO",
+      15
+     ],
+     [
+      "NY",
+      15
+     ],
+     [
+      "OR",
+      15
+     ],
+     [
+      "CT",
+      15
+     ]
+    ],
+    "status": [
+     [
+      "Good Standing",
+      15
+     ],
+     [
+      "Active",
+      15
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

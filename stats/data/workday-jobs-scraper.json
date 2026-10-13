@@ -1,0 +1,74 @@
+{
+ "slug": "workday-jobs-scraper",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 60,
+   "dateColumn": "postedOn",
+   "oldest": "2026-05-18",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "salaryMin",
+    "withValue": 7,
+    "min": 54500.0,
+    "median": 117400.0,
+    "max": 197300.0,
+    "sum": 971400.0
+   },
+   "top": {
+    "remoteType": [
+     [
+      "Remote",
+      10
+     ],
+     [
+      "Office Tech-Flexible",
+      3
+     ],
+     [
+      "Office - Flexible",
+      3
+     ],
+     [
+      "Remote Home-Based",
+      1
+     ],
+     [
+      "Office - Based",
+      1
+     ]
+    ],
+    "timeType": [
+     [
+      "Full time",
+      20
+     ]
+    ],
+    "country": [
+     [
+      "United States of America",
+      12
+     ],
+     [
+      "India",
+      2
+     ],
+     [
+      "Vietnam",
+      1
+     ],
+     [
+      "Poland",
+      1
+     ],
+     [
+      "China",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

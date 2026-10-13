@@ -1,0 +1,62 @@
+{
+ "slug": "developer-signals",
+ "months": {
+  "2026-10": {
+   "month": "2026-10",
+   "pulledAt": "2026-10-13",
+   "records": 47,
+   "dateColumn": "createdAt",
+   "oldest": "2026-07-20",
+   "newest": "2026-10-13",
+   "numeric": {
+    "column": "points",
+    "withValue": 43,
+    "min": 1.0,
+    "median": 2.0,
+    "max": 277.0,
+    "sum": 756.0
+   },
+   "top": {
+    "source": [
+     [
+      "hackernews",
+      43
+     ],
+     [
+      "npm",
+      2
+     ],
+     [
+      "pypi",
+      2
+     ]
+    ],
+    "recordType": [
+     [
+      "story",
+      43
+     ],
+     [
+      "package",
+      4
+     ]
+    ],
+    "kind": [
+     [
+      "showHn",
+      24
+     ],
+     [
+      "story",
+      18
+     ],
+     [
+      "askHn",
+      1
+     ]
+    ]
+   },
+   "topMetric": "count"
+  }
+ }
+}

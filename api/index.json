@@ -1,0 +1,97 @@
+{
+ "name": "Open Data Actors static JSON API",
+ "generatedAt": "2026-10-13",
+ "note": "Static files on GitHub Pages. CORS is open (Access-Control-Allow-Origin: *). Updated weekly.",
+ "datasets": [
+  {
+   "slug": "warn-layoff-alerts",
+   "name": "WARN layoff notices (7 states)",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:36Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/warn-layoff-alerts.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/warn-layoff-alerts.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/warn-layoff-alerts"
+  },
+  {
+   "slug": "fmcsa-new-carrier-leads",
+   "name": "New US trucking carriers (FMCSA census)",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:45Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/fmcsa-new-carrier-leads.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/fmcsa-new-carrier-leads.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads"
+  },
+  {
+   "slug": "federal-grants-contracts",
+   "name": "Federal grants and contract awards",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:53Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/federal-grants-contracts.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/federal-grants-contracts.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/federal-grants-contracts"
+  },
+  {
+   "slug": "city-council-agendas",
+   "name": "City council agenda items and votes",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:36Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/city-council-agendas.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/city-council-agendas.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/city-council-agendas"
+  },
+  {
+   "slug": "sec-form-d-funding-leads",
+   "name": "SEC Form D private placement filings",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:54Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/sec-form-d-funding-leads.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/sec-form-d-funding-leads.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/sec-form-d-funding-leads"
+  },
+  {
+   "slug": "new-business-filings",
+   "name": "New business entity filings (CO, NY, OR, CT)",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:48Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/new-business-filings.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/new-business-filings.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/new-business-filings"
+  },
+  {
+   "slug": "building-permits-leads",
+   "name": "City building permits (Chicago, Seattle, Austin)",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:52Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/building-permits-leads.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/building-permits-leads.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/building-permits-leads"
+  },
+  {
+   "slug": "developer-signals",
+   "name": "Developer signals: Hacker News, npm and PyPI",
+   "rowCount": 47,
+   "generatedAt": "2026-10-13T22:21:51Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/developer-signals.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/developer-signals.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/developer-signals"
+  },
+  {
+   "slug": "ats-open-roles",
+   "name": "Open jobs from Greenhouse, Lever and Ashby boards",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:21:57Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/ats-open-roles.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/ats-open-roles.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/ats-open-roles"
+  },
+  {
+   "slug": "workday-jobs-scraper",
+   "name": "Jobs from Workday career sites",
+   "rowCount": 60,
+   "generatedAt": "2026-10-13T22:22:12Z",
+   "endpoint": "https://mamoo85.github.io/open-data-actors/api/workday-jobs-scraper.json",
+   "page": "https://mamoo85.github.io/open-data-actors/datasets/workday-jobs-scraper.html",
+   "sourceActor": "https://apify.com/transparent_meteorite/workday-jobs-scraper"
+  }
+ ]
+}
