@@ -67,3 +67,16 @@
 - [Career Site Jobs API vs Greenhouse, Lever & Ashby Job Scraper API on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/ats-open-roles-vs-greenhouse-lever-ashby-job-scraper.html)
 - [FMCSA New Motor Carrier Leads vs FMCSA New Carrier Feed on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/fmcsa-new-carrier-leads-vs-fmcsa-new-carrier-feed.html)
 - [App Store Reviews Scraper vs App Store Reviews Scraper API on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/app-store-reviews-vs-appstore-reviews-scraper.html)
+<!--oda-datasets-->
+## Open datasets
+- [WARN layoff notices (7 states)](https://mamoo85.github.io/open-data-actors/datasets/warn-layoff-alerts.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/warn-layoff-alerts.json
+- [New US trucking carriers (FMCSA census)](https://mamoo85.github.io/open-data-actors/datasets/fmcsa-new-carrier-leads.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/fmcsa-new-carrier-leads.json
+- [Federal grants and contract awards](https://mamoo85.github.io/open-data-actors/datasets/federal-grants-contracts.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/federal-grants-contracts.json
+- [City council agenda items and votes](https://mamoo85.github.io/open-data-actors/datasets/city-council-agendas.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/city-council-agendas.json
+- [SEC Form D private placement filings](https://mamoo85.github.io/open-data-actors/datasets/sec-form-d-funding-leads.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/sec-form-d-funding-leads.json
+- [New business entity filings (CO, NY, OR, CT)](https://mamoo85.github.io/open-data-actors/datasets/new-business-filings.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/new-business-filings.json
+- [City building permits (Chicago, Seattle, Austin)](https://mamoo85.github.io/open-data-actors/datasets/building-permits-leads.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/building-permits-leads.json
+- [Developer signals: Hacker News, npm and PyPI](https://mamoo85.github.io/open-data-actors/datasets/developer-signals.html): 47 rows, JSON at https://mamoo85.github.io/open-data-actors/api/developer-signals.json
+- [Open jobs from Greenhouse, Lever and Ashby boards](https://mamoo85.github.io/open-data-actors/datasets/ats-open-roles.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/ats-open-roles.json
+- [Jobs from Workday career sites](https://mamoo85.github.io/open-data-actors/datasets/workday-jobs-scraper.html): 60 rows, JSON at https://mamoo85.github.io/open-data-actors/api/workday-jobs-scraper.json
+<!--/oda-datasets-->
