@@ -1,0 +1,33 @@
+# Open Data Actors
+
+> 24 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+
+## Actors
+- [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
+- [New trucking companies, the week they get authority](https://mamoo85.github.io/open-data-actors/fmcsa-new-carrier-leads.html): New carriers are the easiest buyers to win and the hardest to find: they appear in the FMCSA census before they appear on any lead list.
+- [New LLCs and corporations by state](https://mamoo85.github.io/open-data-actors/new-business-filings.html): New businesses need a bank, insurer and website in their first weeks.
+- [Shopify store details: theme, apps, products](https://mamoo85.github.io/open-data-actors/shopify-store-leads.html): Knowing which apps and theme a store uses tells you if they are a fit.
+- [Emails and phones from a list of company websites](https://mamoo85.github.io/open-data-actors/website-contact-extractor.html): Hunting for a contact page across hundreds of sites is slow.
+- [Building permits and violations from US city portals](https://mamoo85.github.io/open-data-actors/building-permits-leads.html): Permits tell you who is building before they hire a vendor.
+- [Turn a list of domains into company profiles](https://mamoo85.github.io/open-data-actors/company-enrichment-by-domain.html): You have domains but not names, socials, careers pages or contact channels.
+- [Amazon product search results as a clean table](https://mamoo85.github.io/open-data-actors/amazon-product-search.html): Amazon search and product pages are hard to turn into a table of prices, ratings and ASINs.
+- [Startups that just filed an SEC Form D](https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html): Form D filings show who raised money, but EDGAR is hard to filter.
+- [Federal grants and contract awards in one feed](https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html): Grants.gov and USAspending are separate sites with different filters.
+- [Screen names against OFAC, EU, UN and UK lists](https://mamoo85.github.io/open-data-actors/sanctions-screening.html): Manually searching lists for each new customer is slow.
+- [WARN layoff notices from 7 states as clean rows](https://mamoo85.github.io/open-data-actors/warn-layoff-alerts.html): WARN notices are public but live on seven different state sites in seven formats.
+- [City council agenda items and votes, searchable data](https://mamoo85.github.io/open-data-actors/city-council-agendas.html): Agenda items sit inside PDFs and portal pages city by city.
+- [Open jobs from Greenhouse, Lever and Ashby career pages](https://mamoo85.github.io/open-data-actors/ats-open-roles.html): Companies host jobs on ATS boards with different APIs per vendor.
+- [Jobs from any Workday career site](https://mamoo85.github.io/open-data-actors/workday-jobs-scraper.html): Workday sites share a platform but each has its own tenant URL.
+- [LinkedIn public job listings without a login](https://mamoo85.github.io/open-data-actors/linkedin-public-jobs.html): LinkedIn job search is hard to export without an account or cookies.
+- [Page-level technical SEO audit as data](https://mamoo85.github.io/open-data-actors/technical-seo-page-audit.html): Spreadsheet audits mix manual checks across many pages.
+- [Every URL in a sitemap, with an optional broken-link check](https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html): Before a migration you need the full URL inventory.
+- [What is this website built on?](https://mamoo85.github.io/open-data-actors/website-tech-stack-detector.html): Checking sites one at a time in a browser extension does not scale to a list.
+- [WHOIS/RDAP, DNS, SSL and security headers in one call](https://mamoo85.github.io/open-data-actors/domain-intelligence-lookup.html): Domain facts live in four different tools.
+- [Hacker News, npm and PyPI signals for developer-tool teams](https://mamoo85.github.io/open-data-actors/developer-signals.html): You need to know where your tool is being discussed and adopted.
+- [News alerts for companies and keywords as data](https://mamoo85.github.io/open-data-actors/company-news-monitor.html): News alerts email you; they do not feed a spreadsheet or Slack.
+- [Apple App Store reviews and ratings by country](https://mamoo85.github.io/open-data-actors/app-store-reviews.html): Reading reviews in the app store does not export.
+- [Facebook and Instagram ads from the Meta Ad Library](https://mamoo85.github.io/open-data-actors/meta-ad-library.html): The Meta Ad Library is public, but it has no simple export of ads by keyword or advertiser.
+
+## Optional
+- [Sitemap](https://mamoo85.github.io/open-data-actors/sitemap.xml)
+- [Sample CSVs](https://github.com/Mamoo85/apify-actor-samples)
