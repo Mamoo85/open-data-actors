@@ -1,0 +1,516 @@
+{
+ "generated": "2026-10-13T22:01:13Z",
+ "source": "Apify API actor pricingInfos",
+ "actors": [
+  {
+   "slug": "fmcsa-new-carrier-leads",
+   "username": "transparent_meteorite",
+   "title": "FMCSA New Motor Carrier Leads: New Authority, Email & Phone",
+   "url": "https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "carrier-record": {
+     "title": "New carrier record returned",
+     "usd": 0.008
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "warn-layoff-alerts",
+   "username": "transparent_meteorite",
+   "title": "WARN Layoff Notices API: 7 States (TX CA WA OR MD VA NC) $3/1k",
+   "url": "https://apify.com/transparent_meteorite/warn-layoff-alerts",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "warn-notice": {
+     "title": "WARN notice returned",
+     "usd": 0.003
+    },
+    "enriched-contact": {
+     "title": "Employer contact enriched",
+     "usd": 0.05
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "website-tech-stack-detector",
+   "username": "transparent_meteorite",
+   "title": "Website Tech Stack Lookup: CMS, Frameworks, Hosting $0.002/site",
+   "url": "https://apify.com/transparent_meteorite/website-tech-stack-detector",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "site-analyzed": {
+     "title": "Site analyzed",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "ats-open-roles",
+   "username": "transparent_meteorite",
+   "title": "Career Site Jobs API: Greenhouse, Lever, Ashby & more | $2/1k",
+   "url": "https://apify.com/transparent_meteorite/ats-open-roles",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "job-extracted": {
+     "title": "Job extracted",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "city-council-agendas",
+   "username": "transparent_meteorite",
+   "title": "City Council Meetings & Agendas: Legistar Votes, PDFs | $1/1k",
+   "url": "https://apify.com/transparent_meteorite/city-council-agendas",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "agenda-item": {
+     "title": "Agenda item returned",
+     "usd": 0.001
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "company-enrichment-by-domain",
+   "username": "transparent_meteorite",
+   "title": "Company Enrichment by Domain: Socials, Emails, Tech Stack $5/1k",
+   "url": "https://apify.com/transparent_meteorite/company-enrichment-by-domain",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "domain-enriched": {
+     "title": "Domain enriched",
+     "usd": 0.005
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "sec-form-d-funding-leads",
+   "username": "transparent_meteorite",
+   "title": "SEC Form D Startup Funding Leads: Recently Funded, $2.50/1k",
+   "url": "https://apify.com/transparent_meteorite/sec-form-d-funding-leads",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "filing-returned": {
+     "title": "Form D filing returned",
+     "usd": 0.0025
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "technical-seo-page-audit",
+   "username": "transparent_meteorite",
+   "title": "Technical SEO Page Audit: Broken Links, Hreflang, $3/1k",
+   "url": "https://apify.com/transparent_meteorite/technical-seo-page-audit",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "page-audited": {
+     "title": "Page audited",
+     "usd": 0.003
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "domain-intelligence-lookup",
+   "username": "transparent_meteorite",
+   "title": "Domain Intelligence: WHOIS/RDAP, DNS, Subdomains, SSL, $2/1k",
+   "url": "https://apify.com/transparent_meteorite/domain-intelligence-lookup",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "domain-looked-up": {
+     "title": "Domain looked up",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "new-business-filings",
+   "username": "transparent_meteorite",
+   "title": "New Business Filings: New LLCs and Corporations, $4/1k",
+   "url": "https://apify.com/transparent_meteorite/new-business-filings",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "filing-returned": {
+     "title": "Business filing returned",
+     "usd": 0.004
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "app-store-reviews",
+   "username": "transparent_meteorite",
+   "title": "App Store Reviews Scraper: Ratings, 150+ Countries, $0.50/1k",
+   "url": "https://apify.com/transparent_meteorite/app-store-reviews",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "review-returned": {
+     "title": "Review returned",
+     "usd": 0.0005
+    },
+    "app-details": {
+     "title": "App details row",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "website-contact-extractor",
+   "username": "transparent_meteorite",
+   "title": "Website Contact Details Scraper: Emails, Phones & Socials $2/1k",
+   "url": "https://apify.com/transparent_meteorite/website-contact-extractor",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "site-crawled": {
+     "title": "Site crawled",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "shopify-store-leads",
+   "username": "transparent_meteorite",
+   "title": "Shopify Leads: Store Apps, Products & Contacts | $4/1k",
+   "url": "https://apify.com/transparent_meteorite/shopify-store-leads",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "store-analyzed": {
+     "title": "Store analyzed",
+     "usd": 0.004
+    },
+    "product-row": {
+     "title": "Product row",
+     "usd": 0.0005
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "local-business-leads",
+   "username": "transparent_meteorite",
+   "title": "Local Business Leads: No-Website Finder (OpenStreetMap) $3/1k",
+   "url": "https://apify.com/transparent_meteorite/local-business-leads",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "place-returned": {
+     "title": "Place returned",
+     "usd": 0.003
+    },
+    "website-enriched": {
+     "title": "Website enriched",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "workday-jobs-scraper",
+   "username": "transparent_meteorite",
+   "title": "Workday Jobs Scraper: Any Career Site, 165+ Companies $1/1k",
+   "url": "https://apify.com/transparent_meteorite/workday-jobs-scraper",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "job-listed": {
+     "title": "Job listed",
+     "usd": 0.001
+    },
+    "job-with-description": {
+     "title": "Job with description",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "company-news-monitor",
+   "username": "transparent_meteorite",
+   "title": "Company News Monitor: Brand & Keyword News Alerts, $2/1k",
+   "url": "https://apify.com/transparent_meteorite/company-news-monitor",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "article-returned": {
+     "title": "Article returned",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "building-permits-leads",
+   "username": "transparent_meteorite",
+   "title": "Building Permits Leads: US City Permits and Violations, $1.5/1k",
+   "url": "https://apify.com/transparent_meteorite/building-permits-leads",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "permit-returned": {
+     "title": "Permit or violation record returned",
+     "usd": 0.0015
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "sitemap-link-inventory",
+   "username": "transparent_meteorite",
+   "title": "Sitemap Link Inventory: All URLs + Broken-Link Check, $1/1k",
+   "url": "https://apify.com/transparent_meteorite/sitemap-link-inventory",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "sitemap-file-parsed": {
+     "title": "Sitemap file parsed",
+     "usd": 0.001
+    },
+    "link-checked": {
+     "title": "Link checked",
+     "usd": 0.001
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "developer-signals",
+   "username": "transparent_meteorite",
+   "title": "Hacker News, npm & PyPI Developer Signals",
+   "url": "https://apify.com/transparent_meteorite/developer-signals",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "hn-item": {
+     "title": "Hacker News item",
+     "usd": 0.001
+    },
+    "package-record": {
+     "title": "Package record",
+     "usd": 0.002
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "sanctions-screening",
+   "username": "transparent_meteorite",
+   "title": "Sanctions Screening: OFAC SDN, EU, UN & UK Lists, Fuzzy Match",
+   "url": "https://apify.com/transparent_meteorite/sanctions-screening",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "name-screened": {
+     "title": "Name screened",
+     "usd": 0.004
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "federal-grants-contracts",
+   "username": "transparent_meteorite",
+   "title": "Federal Grants & Contracts Finder: Grants.gov + USAspending",
+   "url": "https://apify.com/transparent_meteorite/federal-grants-contracts",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    },
+    "opportunity-returned": {
+     "title": "Grant opportunity returned",
+     "usd": 0.002
+    },
+    "award-returned": {
+     "title": "Award record returned",
+     "usd": 0.0015
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "amazon-product-search",
+   "username": "transparent_meteorite",
+   "title": "Amazon Product Search: prices, ratings, ASINs",
+   "url": "https://apify.com/transparent_meteorite/amazon-product-search",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "product-extracted": {
+     "title": "Product extracted",
+     "tiers": {
+      "FREE": {
+       "tieredEventPriceUsd": 0.004
+      },
+      "BRONZE": {
+       "tieredEventPriceUsd": 0.0034
+      },
+      "SILVER": {
+       "tieredEventPriceUsd": 0.003
+      },
+      "GOLD": {
+       "tieredEventPriceUsd": 0.0026
+      },
+      "PLATINUM": {
+       "tieredEventPriceUsd": 0.0026
+      },
+      "DIAMOND": {
+       "tieredEventPriceUsd": 0.0026
+      }
+     }
+    },
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "linkedin-public-jobs",
+   "username": "transparent_meteorite",
+   "title": "LinkedIn Public Jobs Scraper (no login) | Salary & Level",
+   "url": "https://apify.com/transparent_meteorite/linkedin-public-jobs",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "job-extracted": {
+     "title": "Job extracted",
+     "tiers": {
+      "FREE": {
+       "tieredEventPriceUsd": 0.0017
+      },
+      "BRONZE": {
+       "tieredEventPriceUsd": 0.00085
+      },
+      "SILVER": {
+       "tieredEventPriceUsd": 0.00085
+      },
+      "GOLD": {
+       "tieredEventPriceUsd": 0.00085
+      },
+      "PLATINUM": {
+       "tieredEventPriceUsd": 0.00085
+      },
+      "DIAMOND": {
+       "tieredEventPriceUsd": 0.00085
+      }
+     }
+    },
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    }
+   },
+   "monthly": null,
+   "trial": null
+  },
+  {
+   "slug": "meta-ad-library",
+   "username": "transparent_meteorite",
+   "title": "Meta Ad Library Scraper: Facebook & Instagram Ads",
+   "url": "https://apify.com/transparent_meteorite/meta-ad-library",
+   "model": "PAY_PER_EVENT",
+   "events": {
+    "ad-extracted": {
+     "title": "Ad extracted",
+     "usd": 0.00065
+    },
+    "apify-actor-start": {
+     "title": "Actor Start",
+     "usd": 5e-05
+    }
+   },
+   "monthly": null,
+   "trial": null
+  }
+ ]
+}

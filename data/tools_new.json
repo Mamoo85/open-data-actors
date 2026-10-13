@@ -1,0 +1,37 @@
+[
+ {
+  "slug": "sitemap-xml-analyzer",
+  "title": "Sitemap XML Analyzer",
+  "desc": "Paste a sitemap.xml and get URL counts by section, duplicates, stale lastmod dates and format problems, all in your browser."
+ },
+ {
+  "slug": "email-extractor-mx-check",
+  "title": "Email Extractor and MX Check",
+  "desc": "Paste any text and pull out the email addresses, de-duplicated, with role inboxes flagged and an optional check that each domain can receive mail."
+ },
+ {
+  "slug": "domain-dns-mail-health-check",
+  "title": "Domain DNS and Email Setup Checker",
+  "desc": "Look up a domain's A, MX, NS, SPF and DMARC records and its registration age, using free public DNS and RDAP services."
+ },
+ {
+  "slug": "ats-job-board-viewer",
+  "title": "Greenhouse, Lever and Ashby Job Board Viewer",
+  "desc": "Enter a company board name and list its open jobs from the public Greenhouse, Lever or Ashby job board API, then filter and export to CSV."
+ },
+ {
+  "slug": "page-seo-audit-from-html",
+  "title": "On-Page SEO Audit from HTML",
+  "desc": "Paste a page's HTML source and check title, description, headings, canonical, images, social tags and structured data in your browser."
+ },
+ {
+  "slug": "federal-awards-by-recipient",
+  "title": "Federal Awards by Recipient",
+  "desc": "Search US federal contracts or grants awarded to a company or organisation, using the free USAspending.gov API directly from your browser."
+ },
+ {
+  "slug": "app-store-review-summary",
+  "title": "App Store Review Summary",
+  "desc": "Enter an iPhone app ID and get its rating, the latest reviews, the rating split and the most common complaint words from Apple's public feed."
+ }
+]
