@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://mamoo85.github.io/open-data-actors/</loc><lastmod>2026-10-11</lastmod></url>
+<url><loc>https://mamoo85.github.io/open-data-actors/</loc><lastmod>2026-10-12</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/local-business-leads.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/fmcsa-new-carrier-leads.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/new-business-filings.html</loc><lastmod>2026-10-11</lastmod></url>
@@ -8,6 +8,7 @@
 <url><loc>https://mamoo85.github.io/open-data-actors/website-contact-extractor.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/building-permits-leads.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/company-enrichment-by-domain.html</loc><lastmod>2026-10-11</lastmod></url>
+<url><loc>https://mamoo85.github.io/open-data-actors/amazon-product-search.html</loc><lastmod>2026-10-12</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/sanctions-screening.html</loc><lastmod>2026-10-11</lastmod></url>
@@ -15,6 +16,7 @@
 <url><loc>https://mamoo85.github.io/open-data-actors/city-council-agendas.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/ats-open-roles.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/workday-jobs-scraper.html</loc><lastmod>2026-10-11</lastmod></url>
+<url><loc>https://mamoo85.github.io/open-data-actors/linkedin-public-jobs.html</loc><lastmod>2026-10-12</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/technical-seo-page-audit.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/website-tech-stack-detector.html</loc><lastmod>2026-10-11</lastmod></url>
@@ -22,4 +24,5 @@
 <url><loc>https://mamoo85.github.io/open-data-actors/developer-signals.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/company-news-monitor.html</loc><lastmod>2026-10-11</lastmod></url>
 <url><loc>https://mamoo85.github.io/open-data-actors/app-store-reviews.html</loc><lastmod>2026-10-11</lastmod></url>
+<url><loc>https://mamoo85.github.io/open-data-actors/meta-ad-library.html</loc><lastmod>2026-10-12</lastmod></url>
 </urlset>
