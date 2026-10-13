@@ -4,23 +4,23 @@
   "2026-10": {
    "month": "2026-10",
    "pulledAt": "2026-10-13",
-   "records": 47,
+   "records": 49,
    "dateColumn": "createdAt",
    "oldest": "2026-07-20",
    "newest": "2026-10-13",
    "numeric": {
     "column": "points",
-    "withValue": 43,
+    "withValue": 45,
     "min": 1.0,
     "median": 2.0,
-    "max": 277.0,
-    "sum": 756.0
+    "max": 108.0,
+    "sum": 447.0
    },
    "top": {
     "source": [
      [
       "hackernews",
-      43
+      45
      ],
      [
       "npm",
@@ -34,7 +34,7 @@
     "recordType": [
      [
       "story",
-      43
+      45
      ],
      [
       "package",
@@ -44,15 +44,15 @@
     "kind": [
      [
       "showHn",
-      24
+      26
      ],
      [
       "story",
-      18
+      17
      ],
      [
       "askHn",
-      1
+      2
      ]
     ]
    },

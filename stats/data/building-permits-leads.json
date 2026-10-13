@@ -6,15 +6,15 @@
    "pulledAt": "2026-10-13",
    "records": 60,
    "dateColumn": "issueDate",
-   "oldest": "2026-10-09",
-   "newest": "2026-10-13",
+   "oldest": "2026-10-08",
+   "newest": "2026-10-12",
    "numeric": {
     "column": "valuation",
-    "withValue": 45,
+    "withValue": 42,
     "min": 0.0,
-    "median": 36393.0,
-    "max": 57000000.0,
-    "sum": 68807569.0
+    "median": 11843.0,
+    "max": 69876675.0,
+    "sum": 75199464.0
    },
    "top": {
     "permitType": [
@@ -23,32 +23,32 @@
       20
      ],
      [
-      "Building - Addition/Alteration",
-      9
+      "Mechanical Permit",
+      16
      ],
      [
-      "Building Permit",
-      9
+      "Building - Addition/Alteration",
+      12
      ],
      [
       "Building - New",
-      7
-     ],
-     [
-      "Plumbing Permit",
-      7
-     ],
-     [
-      "Demolition",
-      2
+      4
      ],
      [
       "Roof",
+      3
+     ],
+     [
+      "Building Permit",
       2
      ],
      [
-      "Electrical Permit",
-      2
+      "Demolition",
+      1
+     ],
+     [
+      "Plumbing Permit",
+      1
      ]
     ],
     "city": [
@@ -76,11 +76,7 @@
      ],
      [
       "Active",
-      19
-     ],
-     [
-      "Final",
-      1
+      20
      ]
     ]
    },
