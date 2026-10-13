@@ -1,0 +1,24 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Subscribe to the weekly digest</title><meta name="description" content="Opt-in weekly email digest of public-data changes, with double opt-in and one-click unsubscribe."><link rel="canonical" href="https://mamoo85.github.io/open-data-actors/digest/subscribe.html"><meta property="og:type" content="website"><meta property="og:site_name" content="Open Data Actors"><meta property="og:title" content="Subscribe to the weekly digest"><meta property="og:description" content="Opt-in weekly email digest of public-data changes, with double opt-in and one-click unsubscribe."><meta property="og:url" content="https://mamoo85.github.io/open-data-actors/digest/subscribe.html"><meta name="twitter:card" content="summary"><style>body{font:16px/1.55 system-ui,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;color:#1a1a1a;background:#fff}table{border-collapse:collapse;width:100%;font-size:13px;display:block;overflow-x:auto}td,th{border:1px solid #ccc;padding:4px 8px;text-align:left}a{color:#1a56db}a.btn{display:inline-block;background:#1a56db;color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none}nav{font-size:14px;margin-bottom:16px}.video{margin:16px 0}li{margin:4px 0}@media(prefers-color-scheme:dark){body{background:#111;color:#eee}td,th{border-color:#444}a{color:#8ab4ff}a.btn{background:#1a56db;color:#fff}}.bar{display:inline-block;height:8px;background:#1a56db;border-radius:3px;vertical-align:middle}.muted{color:#666;font-size:14px}</style></head><body>
+<nav><a href="../index.html">All actors</a> | <a href="../digest/">Digest</a> | <a href="../articles/">Articles</a> | <a href="../quality/">Data quality</a> | <a href="https://github.com/Mamoo85/apify-actor-samples">Sample CSVs</a></nav>
+<h1>Get the weekly digest by email</h1>
+<p>One short email a week with what changed in the public data sources we cover. It is the same text as the <a href="./">digest page</a>. No ads, no sharing of your address.</p>
+<form id="f" method="post" action="https://zmyczlfuufhngzovkjdh.supabase.co/functions/v1/oda-newsletter">
+<p><label>Email address<br><input type="email" name="email" id="em" required maxlength="254" style="width:100%;max-width:340px;padding:8px"></label></p>
+<p style="position:absolute;left:-9999px" aria-hidden="true"><label>Leave empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
+<p><button type="submit" style="padding:8px 16px">Subscribe</button></p>
+<p id="msg" role="status"></p>
+</form>
+<p>How it works: you enter your address, we email you a confirmation link, and you only get the digest after you click it. Every digest has an unsubscribe link. Confirmation emails go out in batches, so it can take a day.</p>
+<p>No script or form not working? Email <a href="mailto:matt@detroitwebagent.com?subject=Subscribe%20to%20the%20digest&amp;body=Please%20add%20me%20to%20the%20weekly%20digest.">matt@detroitwebagent.com</a> with the subject "Subscribe" and we will send the same confirmation link.</p>
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){
+  ev.preventDefault();var m=document.getElementById('msg');m.textContent='Sending...';
+  var d={email:document.getElementById('em').value,website:this.elements.website.value};
+  fetch("https://zmyczlfuufhngzovkjdh.supabase.co/functions/v1/oda-newsletter",{method:'POST',headers:{'content-type':'text/plain'},body:JSON.stringify(d)})
+   .then(function(r){return r.json()}).then(function(j){
+     m.textContent=j.ok?'Thanks. Check your inbox for a confirmation link. Nothing is sent until you click it.':(j.error||'Something went wrong.');
+   }).catch(function(){m.textContent='Could not reach the sign-up service. Please use the email option on this page.'});
+});
+</script>
+<p class="muted">Sent by Matt Michels, 15121 Kercheval Ave, Grosse Pointe Park, MI 48230. We build and maintain the actors listed on this site. Every email has an unsubscribe link.</p>
+</body></html>

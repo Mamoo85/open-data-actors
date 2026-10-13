@@ -1,0 +1,527 @@
+[
+{
+"url": "https://wordpress.org/",
+"status": 200,
+"error": null,
+"server": "nginx",
+"technologies": [
+{
+"name": "WordPress",
+"category": "CMS",
+"confidence": 100
+},
+{
+"name": "Google Tag Manager",
+"category": "Tag managers",
+"confidence": 80
+},
+{
+"name": "Google Search Console",
+"category": "Analytics",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Nginx",
+"category": "Web servers",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "RSS",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "PHP",
+"category": "Programming languages",
+"confidence": 50
+}
+]
+},
+{
+"url": "https://vercel.com/",
+"status": 200,
+"error": null,
+"server": "Vercel",
+"technologies": [
+{
+"name": "Next.js",
+"category": "JavaScript frameworks",
+"confidence": 100
+},
+{
+"name": "Vercel",
+"category": "Hosting",
+"confidence": 100
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Web App Manifest",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "React",
+"category": "JavaScript frameworks",
+"confidence": 50
+}
+]
+},
+{
+"url": "https://dev.to/",
+"status": 200,
+"error": null,
+"server": "Heroku",
+"technologies": [
+{
+"name": "Heroku",
+"category": "Hosting",
+"confidence": 80
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "RSS",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Ruby on Rails",
+"category": "Web frameworks",
+"confidence": 60
+},
+{
+"name": "Varnish",
+"category": "Caching",
+"confidence": 60
+},
+{
+"name": "YouTube",
+"category": "Video",
+"confidence": 60
+},
+{
+"name": "Ruby",
+"category": "Programming languages",
+"confidence": 50
+}
+]
+},
+{
+"url": "https://shopify.com/",
+"status": 200,
+"error": null,
+"server": "cloudflare",
+"technologies": [
+{
+"name": "Cloudflare",
+"category": "CDN",
+"confidence": 100
+},
+{
+"name": "Tailwind CSS",
+"category": "UI frameworks",
+"confidence": 70
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Shopify",
+"category": "Ecommerce",
+"confidence": 60
+}
+]
+},
+{
+"url": "https://gitlab.com/",
+"status": 200,
+"error": null,
+"server": "cloudflare",
+"technologies": [
+{
+"name": "Cloudflare",
+"category": "CDN",
+"confidence": 100
+},
+{
+"name": "Nuxt",
+"category": "JavaScript frameworks",
+"confidence": 80
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Marketo",
+"category": "Marketing automation",
+"confidence": 60
+},
+{
+"name": "OneTrust",
+"category": "Privacy",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Optimizely",
+"category": "A/B testing",
+"confidence": 60
+},
+{
+"name": "RSS",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Vue.js",
+"category": "JavaScript frameworks",
+"confidence": 60
+}
+]
+},
+{
+"url": "https://getbootstrap.com/",
+"status": 200,
+"error": null,
+"server": "cloudflare",
+"technologies": [
+{
+"name": "Cloudflare",
+"category": "CDN",
+"confidence": 100
+},
+{
+"name": "Astro",
+"category": "JavaScript frameworks",
+"confidence": 70
+},
+{
+"name": "Bootstrap",
+"category": "UI frameworks",
+"confidence": 60
+},
+{
+"name": "Fastly",
+"category": "CDN",
+"confidence": 60
+},
+{
+"name": "Fathom",
+"category": "Analytics",
+"confidence": 60
+},
+{
+"name": "GitHub",
+"category": "Hosting",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Varnish",
+"category": "Caching",
+"confidence": 60
+},
+{
+"name": "Web App Manifest",
+"category": "Metadata",
+"confidence": 60
+}
+]
+},
+{
+"url": "http://github.com/",
+"status": 200,
+"error": null,
+"server": "github.com",
+"technologies": [
+{
+"name": "GitHub",
+"category": "Hosting",
+"confidence": 80
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Contentful",
+"category": "CMS",
+"confidence": 60
+},
+{
+"name": "Google Search Console",
+"category": "Analytics",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Web App Manifest",
+"category": "Metadata",
+"confidence": 60
+}
+]
+},
+{
+"url": "https://drupal.org/",
+"status": 200,
+"error": null,
+"server": "Apache",
+"technologies": [
+{
+"name": "Drupal",
+"category": "CMS",
+"confidence": 100
+},
+{
+"name": "Google Tag Manager",
+"category": "Tag managers",
+"confidence": 80
+},
+{
+"name": "Apache",
+"category": "Web servers",
+"confidence": 60
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "jQuery",
+"category": "JavaScript libraries",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Varnish",
+"category": "Caching",
+"confidence": 60
+},
+{
+"name": "YouTube",
+"category": "Video",
+"confidence": 60
+},
+{
+"name": "PHP",
+"category": "Programming languages",
+"confidence": 50
+}
+]
+},
+{
+"url": "https://this-domain-does-not-exist-9f3k2x.com/",
+"status": null,
+"error": "fetch_failed: ENOTFOUND",
+"server": null,
+"technologies": []
+},
+{
+"url": "https://gymshark.com/",
+"status": 200,
+"error": null,
+"server": "cloudflare",
+"technologies": [
+{
+"name": "Cloudflare",
+"category": "CDN",
+"confidence": 100
+},
+{
+"name": "Shopify",
+"category": "Ecommerce",
+"confidence": 80
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Google Search Console",
+"category": "Analytics",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "Shop Pay",
+"category": "Payment",
+"confidence": 60
+}
+]
+},
+{
+"url": "https://hubspot.com/",
+"status": 200,
+"error": null,
+"server": "cloudflare",
+"technologies": [
+{
+"name": "Cloudflare",
+"category": "CDN",
+"confidence": 100
+},
+{
+"name": "HubSpot",
+"category": "Marketing automation",
+"confidence": 80
+},
+{
+"name": "Content Security Policy",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HubSpot CMS",
+"category": "CMS",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+}
+]
+},
+{
+"url": "https://netlify.com/",
+"status": 200,
+"error": null,
+"server": "Netlify",
+"technologies": [
+{
+"name": "Astro",
+"category": "JavaScript frameworks",
+"confidence": 100
+},
+{
+"name": "Google Tag Manager",
+"category": "Tag managers",
+"confidence": 80
+},
+{
+"name": "Netlify",
+"category": "Hosting",
+"confidence": 80
+},
+{
+"name": "HSTS",
+"category": "Security",
+"confidence": 60
+},
+{
+"name": "HubSpot",
+"category": "Marketing automation",
+"confidence": 60
+},
+{
+"name": "OneTrust",
+"category": "Privacy",
+"confidence": 60
+},
+{
+"name": "Open Graph",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "RSS",
+"category": "Metadata",
+"confidence": 60
+},
+{
+"name": "Web App Manifest",
+"category": "Metadata",
+"confidence": 60
+}
+]
+}
+]

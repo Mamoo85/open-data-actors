@@ -1,0 +1,376 @@
+[
+ {
+  "n": 1,
+  "date": "2026-10-13",
+  "hash": "45f42c44075984ab",
+  "sources": [
+   {
+    "slug": "amazon-product-search",
+    "title": "Amazon product search results as a clean table",
+    "rows": 4,
+    "newest": "2026-10-09",
+    "datecol": "scrapedAt",
+    "avgcov": 92.6,
+    "top": [
+     "brand",
+     "Logitech",
+     2,
+     4
+    ]
+   },
+   {
+    "slug": "app-store-reviews",
+    "title": "Apple App Store reviews and ratings by country",
+    "rows": 9,
+    "newest": "2026-01-12",
+    "datecol": "date",
+    "avgcov": 38.6,
+    "top": [
+     "appName",
+     "Spotify: Music and Podcasts",
+     9,
+     9
+    ]
+   },
+   {
+    "slug": "ats-open-roles",
+    "title": "Open jobs from Greenhouse, Lever and Ashby career pages",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "postedAt",
+    "avgcov": 94.4,
+    "top": [
+     "department",
+     "Software Engineering",
+     3,
+     12
+    ]
+   },
+   {
+    "slug": "building-permits-leads",
+    "title": "Building permits and violations from US city portals",
+    "rows": 12,
+    "newest": "2026-09-09",
+    "datecol": "applicationDate",
+    "avgcov": 100.0,
+    "top": [
+     "permitType",
+     "RENOVATION/ALTERATION",
+     10,
+     12
+    ]
+   },
+   {
+    "slug": "city-council-agendas",
+    "title": "City council agenda items and votes, searchable data",
+    "rows": 12,
+    "newest": "2026-10-08",
+    "datecol": "meetingDate",
+    "avgcov": 91.2,
+    "top": [
+     "city",
+     "Seattle, WA",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "company-enrichment-by-domain",
+    "title": "Turn a list of domains into company profiles",
+    "rows": 8,
+    "newest": "2026-10-11",
+    "datecol": "fetchedAt",
+    "avgcov": 70.8,
+    "top": [
+     "language",
+     "en-US",
+     4,
+     8
+    ]
+   },
+   {
+    "slug": "company-news-monitor",
+    "title": "News alerts for companies and keywords as data",
+    "rows": 11,
+    "newest": "2026-10-11",
+    "datecol": "publishedAt",
+    "avgcov": 92.1,
+    "top": [
+     "country",
+     "US",
+     7,
+     11
+    ]
+   },
+   {
+    "slug": "developer-signals",
+    "title": "Hacker News, npm and PyPI signals for developer-tool teams",
+    "rows": 4,
+    "newest": "2026-10-09",
+    "datecol": "createdAt",
+    "avgcov": 63.0,
+    "top": [
+     "source",
+     "hackernews",
+     3,
+     4
+    ]
+   },
+   {
+    "slug": "domain-intelligence-lookup",
+    "title": "WHOIS/RDAP, DNS, SSL and security headers in one call",
+    "rows": 8,
+    "newest": "2026-10-11",
+    "datecol": "checkedAt",
+    "avgcov": 96.2,
+    "top": [
+     "dmarcPolicy",
+     "quarantine",
+     4,
+     8
+    ]
+   },
+   {
+    "slug": "federal-grants-contracts",
+    "title": "Federal grants and contract awards in one feed",
+    "rows": 12,
+    "newest": "2026-09-10",
+    "datecol": "postedDate",
+    "avgcov": 92.7,
+    "top": [
+     "agency",
+     "U.S. Mission to Tunisia",
+     2,
+     12
+    ]
+   },
+   {
+    "slug": "fmcsa-new-carrier-leads",
+    "title": "New trucking companies, the week they get authority",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "registered_date_iso",
+    "avgcov": 94.0,
+    "top": [
+     "state",
+     "CA",
+     4,
+     12
+    ]
+   },
+   {
+    "slug": "linkedin-public-jobs",
+    "title": "LinkedIn public job listings without a login",
+    "rows": 4,
+    "newest": "2026-10-06",
+    "datecol": "postedAt",
+    "avgcov": 86.7,
+    "top": [
+     "seniority",
+     "Not Applicable",
+     4,
+     4
+    ]
+   },
+   {
+    "slug": "local-business-leads",
+    "title": "Local businesses with no website, from OpenStreetMap",
+    "rows": 12,
+    "newest": "2025-12-19",
+    "datecol": "lastEdited",
+    "avgcov": 72.2,
+    "top": [
+     "category",
+     "dentist",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "meta-ad-library",
+    "title": "Facebook and Instagram ads from the Meta Ad Library",
+    "rows": 4,
+    "newest": "2026-09-01",
+    "datecol": "startDate",
+    "avgcov": 94.1,
+    "top": [
+     "mediaType",
+     "image",
+     4,
+     4
+    ]
+   },
+   {
+    "slug": "new-business-filings",
+    "title": "New LLCs and corporations by state",
+    "rows": 12,
+    "newest": "2026-10-10",
+    "datecol": "filingDate",
+    "avgcov": 100.0,
+    "top": [
+     "state",
+     "CO",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "sanctions-screening",
+    "title": "Screen names against OFAC, EU, UN and UK lists",
+    "rows": 6,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 79.4,
+    "top": [
+     "status",
+     "clear",
+     3,
+     6
+    ]
+   },
+   {
+    "slug": "sec-form-d-funding-leads",
+    "title": "Startups that just filed an SEC Form D",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "filingDate",
+    "avgcov": 91.9,
+    "top": [
+     "industryGroup",
+     "Other Technology",
+     5,
+     12
+    ]
+   },
+   {
+    "slug": "shopify-store-leads",
+    "title": "Shopify store details: theme, apps, products",
+    "rows": 6,
+    "newest": "2026-10-11",
+    "datecol": "checkedAt",
+    "avgcov": 79.2,
+    "top": [
+     "country",
+     "US",
+     5,
+     5
+    ]
+   },
+   {
+    "slug": "sitemap-link-inventory",
+    "title": "Every URL in a sitemap, with an optional broken-link check",
+    "rows": 12,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 100.0,
+    "top": [
+     "pathGroup",
+     "/blog",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "technical-seo-page-audit",
+    "title": "Page-level technical SEO audit as data",
+    "rows": 5,
+    "newest": "2026-10-11",
+    "datecol": "auditedAt",
+    "avgcov": 92.2,
+    "top": [
+     "lang",
+     "en",
+     4,
+     5
+    ]
+   },
+   {
+    "slug": "warn-layoff-alerts",
+    "title": "WARN layoff notices from 7 states as clean rows",
+    "rows": 12,
+    "newest": "2026-10-06",
+    "datecol": "notice_date",
+    "avgcov": 100.0,
+    "top": [
+     "state",
+     "CA",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "website-contact-extractor",
+    "title": "Emails and phones from a list of company websites",
+    "rows": 5,
+    "newest": "2026-10-11",
+    "datecol": "scrapedAt",
+    "avgcov": 70.4,
+    "top": [
+     "status",
+     "ok",
+     5,
+     5
+    ]
+   },
+   {
+    "slug": "website-tech-stack-detector",
+    "title": "What is this website built on?",
+    "rows": 10,
+    "newest": "2026-10-11",
+    "datecol": "fetchedAt",
+    "avgcov": 100.0,
+    "top": [
+     "server",
+     "cloudflare",
+     6,
+     10
+    ]
+   },
+   {
+    "slug": "workday-jobs-scraper",
+    "title": "Jobs from any Workday career site",
+    "rows": 12,
+    "newest": "2026-10-06",
+    "datecol": "postedOn",
+    "avgcov": 86.2,
+    "top": [
+     "country",
+     "Israel",
+     1,
+     4
+    ]
+   }
+  ],
+  "headlines": [
+   [
+    "warn-layoff-alerts",
+    "12 WARN notices in the sample cover 416 workers across 1 state(s). The largest is AMF Bowling Centers, Inc. Castle Park (130 workers, notice dated 2026-10-05)."
+   ],
+   [
+    "sec-form-d-funding-leads",
+    "12 Form D filings: median stated offering $5,000,000, $252,216,588 sold in total, newest filed 2026-10-09."
+   ],
+   [
+    "fmcsa-new-carrier-leads",
+    "12 newly registered carriers from 9 states; median fleet is 1 power unit(s)."
+   ],
+   [
+    "ats-open-roles",
+    "9 of 12 sampled postings (75%) state a salary range."
+   ],
+   [
+    "domain-intelligence-lookup",
+    "Of 8 domains checked, 8 publish SPF and 8 publish DMARC."
+   ],
+   [
+    "federal-grants-contracts",
+    "12 opportunities in the sample; the earliest close date is 2026-10-16."
+   ],
+   [
+    "new-business-filings",
+    "12 new filings, newest dated 2026-10-10, from 1 state(s)."
+   ]
+  ],
+  "changes": []
+ }
+]
