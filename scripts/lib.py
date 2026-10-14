@@ -56,7 +56,7 @@ def scale_box(actors, slug, text):
     a = actors[slug]
     return (f'<h2>Need this at scale?</h2><p>{text} <a href="{a["url"]}">{esc(slug)} on the Apify Store</a> '
             f'(<a href="{a["page"]}">details and free sample CSV</a>) does it in bulk and returns structured data. '
-            f'Estimate the cost first with the <a href="{BASE}cost-calculator.html">pay-per-event cost calculator</a>.</p>')
+            f'Estimate the cost first with the <a href="{BASE}tools/cost-calculator.html">pay-per-event cost calculator</a>.</p>')
 
 
 def write(path, content):
