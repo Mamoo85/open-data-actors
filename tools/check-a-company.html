@@ -3,6 +3,8 @@
 
 
 
+
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Check a Company: Free Open-Source Lookup</h1><p>Look up a company in GLEIF, Wikidata, USAspending, job boards, Hacker News and DNS from your browser, with a clear list of what it cannot check.</p><p class="note">Looks a company up across free, key-free public sources, directly from your browser: GLEIF (legal entity registry), Wikidata, USAspending.gov, public job board APIs, Hacker News search, and (if you give a domain) public DNS and RDAP. It is a quick first look, not due diligence. The section at the bottom lists what it cannot do.</p><div class="row"><div><label for="n">Company name</label><input id="n" placeholder="e.g. Stripe"></div><div><label for="d">Website domain (optional)</label><input id="d" placeholder="stripe.com"></div></div><button onclick="run()">Check company</button><div id="out"></div><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -54,6 +56,8 @@ dm('<table><tr><th>Receives email (MX)</th><td>'+(mx.length?'Yes: '+esc(mx[0].da
 var nc=document.createElement('div');nc.innerHTML=sec('What this page cannot tell you','<ul><li><b>Whether the company is legally registered and in good standing.</b> US state registries have no open browser API. Search the Secretary of State site for the state, or <a href="https://opencorporates.com/companies?q='+q+'" rel="noopener">OpenCorporates</a>.</li><li><b>SEC filings.</b> SEC EDGAR blocks browser requests, so open <a href="https://www.sec.gov/cgi-bin/browse-edgar?company='+q+'&type=&action=getcompany" rel="noopener">EDGAR company search</a> yourself. Our <a href="https://apify.com/transparent_meteorite/sec-form-d-funding-leads?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=check-a-company">Form D actor</a> covers funding filings in bulk.</li><li><b>Sanctions screening.</b> Use the <a href="https://sanctionssearch.ofac.treas.gov/" rel="noopener">official OFAC search</a>; the <a href="sanctions-name-match-explainer.html">name match explainer</a> shows how matching works.</li><li><b>Contacts, financials, ownership, litigation, credit, reviews, news.</b> Not available from free open sources in the browser.</li></ul><p>To check many companies at once, run the <a href="https://apify.com/transparent_meteorite/company-enrichment-by-domain?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=check-a-company">company enrichment actor</a> on a list of domains.</p>');$('out').appendChild(nc)}
 $('n').addEventListener('keydown',function(e){if(e.key==='Enter')run()});$('d').addEventListener('keydown',function(e){if(e.key==='Enter')run()});
 </script>
+
+
 
 
 
