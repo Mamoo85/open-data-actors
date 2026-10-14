@@ -1,6 +1,6 @@
 # Open Data Actors
 
-> 27 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+> 29 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
 
 ## Actors
 - [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
@@ -12,6 +12,8 @@
 - [Turn a list of domains into company profiles](https://mamoo85.github.io/open-data-actors/company-enrichment-by-domain.html): You have domains but not names, socials, careers pages or contact channels.
 - [Amazon product search results as a clean table](https://mamoo85.github.io/open-data-actors/amazon-product-search.html): Amazon search and product pages are hard to turn into a table of prices, ratings and ASINs.
 - [Google Maps scraper: places, ratings and details as a table](https://mamoo85.github.io/open-data-actors/google-maps-places-scraper.html): Google Maps places by search and city: name, category, rating, review count, hours, website, closed flags and description. $1.50 per 1,000 places on the free plan, no subscription.
+- [Amazon Best Sellers top 100 as a table, 21 countries](https://mamoo85.github.io/open-data-actors/amazon-bestsellers.html): Amazon Best Sellers, New Releases, Movers & Shakers, Most Wished For and Gift Ideas ranks in 21 countries as one clean table: rank, ASIN, title, price, rating, reviews, images, category path.
+- [SAM.gov contract opportunities as a clean feed](https://mamoo85.github.io/open-data-actors/sam-gov-opportunities.html): SAM.gov is the official source for federal bids, but finding new ones in your niche means saving searches and checking them by hand.
 - [Startups that just filed an SEC Form D](https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html): Form D filings show who raised money, but EDGAR is hard to filter.
 - [Federal grants and contract awards in one feed](https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html): Grants.gov and USAspending are separate sites with different filters.
 - [Screen names against OFAC, EU, UN and UK lists](https://mamoo85.github.io/open-data-actors/sanctions-screening.html): Manually searching lists for each new customer is slow.
