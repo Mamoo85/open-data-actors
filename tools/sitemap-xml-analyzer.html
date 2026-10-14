@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Sitemap XML Analyzer</h1><p>Paste a sitemap.xml and get URL counts by section, duplicates, stale lastmod dates and format problems, all in your browser.</p><p class="note">Browsers block one site from fetching another site's sitemap, so open your sitemap URL, copy the XML (Ctrl+A, Ctrl+C) and paste it here. It handles a normal sitemap (urlset) and a sitemap index. It does not fetch or check whether each URL actually loads.</p>
 <textarea id="in" placeholder="Paste sitemap XML here"></textarea><button onclick="run()">Analyze</button><button class="alt" onclick="csv()">Download URL list (CSV)</button><div id="out"></div><h2>Need this at scale?</h2><p>To crawl a whole site, follow nested sitemaps and check that every link still returns a good status,  <a href="https://apify.com/transparent_meteorite/sitemap-link-inventory?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=sitemap-xml-analyzer">sitemap-link-inventory on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
@@ -31,6 +37,12 @@ else{var k=Object.keys(sec).sort(function(a,b){return sec[b]-sec[a]});h+="<h2>By
 if(bad.length)h+="<h2>Format notes ("+bad.length+")</h2><p class='muted'>Not errors by the sitemap spec, but worth a look.</p><table>"+bad.slice(0,50).map(function(b){return"<tr><td class='warn'>"+esc(b)+"</td></tr>"}).join("")+"</table>"+(bad.length>50?"<p class='muted'>Showing 50 of "+bad.length+".</p>":"");
 o.innerHTML=h}
 function csv(){if(!rows.length)run();if(rows.length)dl("sitemap-urls.csv",toCsv([["url","lastmod"]].concat(rows)))}</script>
+
+
+
+
+
+
 
 
 

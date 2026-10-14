@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Federal Awards by Recipient</h1><p>Search US federal contracts or grants awarded to a company or organisation, using the free USAspending.gov API directly from your browser.</p><p class="note">Calls the public USAspending.gov API (no key needed) straight from your browser; nothing goes through our servers. Name matching is fuzzy and a company can appear under several legal names or subsidiaries, so check the recipient column. Shows the 25 largest awards that had activity in the period (the amount shown is the award's total, not just the period); it is not a complete audit and USAspending data can lag the source agencies.</p>
 <div class="row"><div><label for="n">Recipient name</label><input id="n" placeholder="e.g. Lockheed Martin"></div><div><label for="k">Award kind</label><select id="k"><option value="c">Contracts</option><option value="g">Grants</option></select></div><div><label for="y">Activity period</label><select id="y"><option value="2024">Active since FY2024</option><option value="2022">Active since FY2022</option><option value="2020">Active since FY2020</option></select></div></div>
 <button onclick="run()">Search</button><button class="alt" onclick="csv()">Download CSV</button><div id="out"></div><h2>Need this at scale?</h2><p>To pull open grant opportunities and award records across agencies on a schedule,  <a href="https://apify.com/transparent_meteorite/federal-grants-contracts?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=federal-awards-by-recipient">federal-grants-contracts on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
@@ -26,6 +32,12 @@ rows=r.map(function(x){return[x["Award ID"],x["Recipient Name"],x["Award Amount"
 o.innerHTML="<table><tr><th>Recipient</th><th>Amount</th><th>Agency</th><th>Start</th><th>Description</th></tr>"+rows.map(function(x){return"<tr><td>"+esc(x[1])+"<br><span class='muted'>"+esc(x[0])+"</span></td><td>"+money(x[2])+"</td><td>"+esc(x[3])+"</td><td>"+esc(x[4])+"</td><td>"+esc((x[6]||"").slice(0,140))+"</td></tr>"}).join("")+"</table><p class='muted'>Source: USAspending.gov, "+new Date().toISOString().slice(0,10)+".</p>"}).catch(function(e){o.innerHTML='<p class="bad">USAspending request failed ('+esc(e.message)+'). Try again.</p>'})}
 function csv(){if(rows.length)dl("federal-awards.csv",toCsv([["award_id","recipient","amount","agency","start","end","description"]].concat(rows)))}
 $("n").addEventListener("keydown",function(e){if(e.key==="Enter")run()})</script>
+
+
+
+
+
+
 
 
 
