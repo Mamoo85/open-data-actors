@@ -1,3 +1,49 @@
-# Open Data Actors
+# Open Data Actors: Apify scrapers and APIs for public data
 
-Landing pages for 24 Apify actors. Live site: https://mamoo85.github.io/open-data-actors/
+Landing pages, free sample data and guides for 24 pay-per-result Apify actors that turn public records into clean JSON/CSV: OFAC sanctions screening, SEC Form D funding leads, WARN Act layoff notices, FMCSA new carrier leads, building permits, SAM.gov and Grants.gov opportunities, job boards, WHOIS lookup, technical SEO audit and more.
+
+Live site: https://mamoo85.github.io/open-data-actors/
+
+## Actors
+
+| Landing page | What it does | Run it |
+|---|---|---|
+| [amazon-product-search](https://mamoo85.github.io/open-data-actors/amazon-product-search.html) | Search Amazon by keyword, URL or ASIN: price, rating, reviews, Prime, badges, specs. No login. Pay per product. | [Apify Store](https://apify.com/transparent_meteorite/amazon-product-search) |
+| [app-store-reviews](https://mamoo85.github.io/open-data-actors/app-store-reviews.html) | Scrape Apple App Store reviews and ratings for any iOS app in 150+ countries: text, stars, version, date, votes and app details. $0.50 per 1,000 reviews. | [Apify Store](https://apify.com/transparent_meteorite/app-store-reviews) |
+| [ats-open-roles](https://mamoo85.github.io/open-data-actors/ats-open-roles.html) | Greenhouse jobs and Lever jobs scraper, plus Ashby, Workable, SmartRecruiters and Recruitee career sites. Salary, remote flag, apply URL. $2 per 1,000 jobs. | [Apify Store](https://apify.com/transparent_meteorite/ats-open-roles) |
+| [building-permits-leads](https://mamoo85.github.io/open-data-actors/building-permits-leads.html) | Building permits leads from 9 official US city and county open-data portals: type, valuation, address, contractor if published. $0.0015 per record. | [Apify Store](https://apify.com/transparent_meteorite/building-permits-leads) |
+| [city-council-agendas](https://mamoo85.github.io/open-data-actors/city-council-agendas.html) | City council meetings and agenda items from 18 US cities via official Legistar: votes, zoning and contract items, agenda PDFs. $1 per 1,000 items. | [Apify Store](https://apify.com/transparent_meteorite/city-council-agendas) |
+| [company-enrichment-by-domain](https://mamoo85.github.io/open-data-actors/company-enrichment-by-domain.html) | Company enrichment by domain: name, logo, LinkedIn and socials, role emails, phones, email provider, careers page, tech stack. Public data only, $0.005 each. | [Apify Store](https://apify.com/transparent_meteorite/company-enrichment-by-domain) |
+| [company-news-monitor](https://mamoo85.github.io/open-data-actors/company-news-monitor.html) | Track company, brand and keyword mentions in 75 publisher RSS feeds, plus GDELT when reachable. Deduped, event-tagged, only new articles. $0.002 each. | [Apify Store](https://apify.com/transparent_meteorite/company-news-monitor) |
+| [developer-signals](https://mamoo85.github.io/open-data-actors/developer-signals.html) | Track Hacker News mentions, Show HN posts and npm/PyPI versions, repo links and downloads. Keyless public APIs, one dataset. From $0.001 per item. | [Apify Store](https://apify.com/transparent_meteorite/developer-signals) |
+| [domain-intelligence-lookup](https://mamoo85.github.io/open-data-actors/domain-intelligence-lookup.html) | Domain intelligence in one call: WHOIS/RDAP registration and expiry dates, status, nameservers, DNS records, SPF, DMARC and subdomains. Empty input runs a demo on example.com. | [Apify Store](https://apify.com/transparent_meteorite/domain-intelligence-lookup) |
+| [federal-grants-contracts](https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html) | Federal grants and contract awards: Grants.gov by posted or due date and notice type, USAspending by NAICS and set-aside. Solicitation number, deadline, department, office and agency contact. | [Apify Store](https://apify.com/transparent_meteorite/federal-grants-contracts) |
+| [fmcsa-new-carrier-leads](https://mamoo85.github.io/open-data-actors/fmcsa-new-carrier-leads.html) | New motor carrier leads from the official FMCSA register: lead score, age in days, operation type, date filters, per-state caps and a monitor mode that returns only new carriers since your last run. | [Apify Store](https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads) |
+| [linkedin-public-jobs](https://mamoo85.github.io/open-data-actors/linkedin-public-jobs.html) | Scrape public LinkedIn job listings with no login or cookies: title, company, salary, seniority, description. Pay per job. | [Apify Store](https://apify.com/transparent_meteorite/linkedin-public-jobs) |
+| [local-business-leads](https://mamoo85.github.io/open-data-actors/local-business-leads.html) | Find local businesses with no website from OpenStreetMap: filter by city, state, country or radius. Phone, address, Facebook, Instagram, LinkedIn and map link. Empty input runs a 5-result demo. | [Apify Store](https://apify.com/transparent_meteorite/local-business-leads) |
+| [meta-ad-library](https://mamoo85.github.io/open-data-actors/meta-ad-library.html) | Scrape the public Meta Ad Library by keyword, Page id or URL. No login. Ad text, CTA, media URLs, dates, platforms. Pay per ad. | [Apify Store](https://apify.com/transparent_meteorite/meta-ad-library) |
+| [new-business-filings](https://mamoo85.github.io/open-data-actors/new-business-filings.html) | Search Secretary of State business filings by company name or new-registration date in CO, NY, OR, CT. Filing ID, registration date, officers and status from official open data. KYB and lead lists. | [Apify Store](https://apify.com/transparent_meteorite/new-business-filings) |
+| [sanctions-screening](https://mamoo85.github.io/open-data-actors/sanctions-screening.html) | Screen names against OFAC SDN, EU, UN and UK sanctions lists with fuzzy matching. Set minimum score, date of birth, country and program topics. Returns confidence, aliases, countries, source links. | [Apify Store](https://apify.com/transparent_meteorite/sanctions-screening) |
+| [sec-form-d-funding-leads](https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html) | New SEC Form D funding filings as leads: filter by state, city, industry and amount; monitor only new filings. Company, CIK, accession number, first-sale date, amounts, officer name and phone. | [Apify Store](https://apify.com/transparent_meteorite/sec-form-d-funding-leads) |
+| [shopify-store-leads](https://mamoo85.github.io/open-data-actors/shopify-store-leads.html) | Shopify leads by niche or domain list: installed apps (Klaviyo, Yotpo, ReCharge), theme, product count, prices, emails, phones. $4 per 1,000 stores. | [Apify Store](https://apify.com/transparent_meteorite/shopify-store-leads) |
+| [sitemap-link-inventory](https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html) | Sitemap extractor for any domain: nested, .gz, .txt, lastmod, images, hreflang. Optional HTTP status check, depth limit, new-since-last-run monitor. Partial results never fail the run. | [Apify Store](https://apify.com/transparent_meteorite/sitemap-link-inventory) |
+| [technical-seo-page-audit](https://mamoo85.github.io/open-data-actors/technical-seo-page-audit.html) | Bulk or whole-site technical SEO audit: 0-100 score, category scores, top issues, broken links, canonical, hreflang, JSON-LD, duplicate titles, new/changed monitoring. $0.003 per page. | [Apify Store](https://apify.com/transparent_meteorite/technical-seo-page-audit) |
+| [warn-layoff-alerts](https://mamoo85.github.io/open-data-actors/warn-layoff-alerts.html) | WARN Act layoff notices from TX, CA, WA, OR, MD, VA and NC: filter by date window, minimum workers, closures only. Employer, headcount, notice and layoff dates. $0.003 each. | [Apify Store](https://apify.com/transparent_meteorite/warn-layoff-alerts) |
+| [website-contact-extractor](https://mamoo85.github.io/open-data-actors/website-contact-extractor.html) | Extract emails, E.164 phones and 11 socials (incl. WhatsApp, Telegram, Discord) from website lists. Crawl depth, URL filters, source URL per contact, new-or-changed monitor. $0.002/site. | [Apify Store](https://apify.com/transparent_meteorite/website-contact-extractor) |
+| [website-tech-stack-detector](https://mamoo85.github.io/open-data-actors/website-tech-stack-detector.html) | Bulk website tech lookup: CMS, ecommerce, analytics, CDN, versions, confidence. Find sites using Shopify, track stack changes. $0.002/site BuiltWith alternative. | [Apify Store](https://apify.com/transparent_meteorite/website-tech-stack-detector) |
+| [workday-jobs-scraper](https://mamoo85.github.io/open-data-actors/workday-jobs-scraper.html) | Scrape Workday career sites (myworkdayjobs.com) or 165+ employers by name. Filter by salary, remote/hybrid, title, location, description, date. Derived level, type, cities, logo. $1 per 1,000 jobs. | [Apify Store](https://apify.com/transparent_meteorite/workday-jobs-scraper) |
+
+## Free resources
+
+- [Guides with real sample output](https://mamoo85.github.io/open-data-actors/guides/index.html)
+- [Free browser tools and cost calculators](https://mamoo85.github.io/open-data-actors/tools/index.html)
+- [Free CSV and JSON datasets](https://mamoo85.github.io/open-data-actors/datasets/index.html)
+- Output schema and sample rows per actor: `/schema/<actor>.html`
+
+## Related repositories
+
+- [open-data-actors-mcp](https://github.com/Mamoo85/open-data-actors-mcp): MCP server for AI agents
+- [open-data-actors-agent-tools](https://github.com/Mamoo85/open-data-actors-agent-tools): LangChain, LlamaIndex, CrewAI tools
+- [open-data-actor-workflows](https://github.com/Mamoo85/open-data-actor-workflows): n8n, Make, Zapier workflows
+- [open-data-actor-notebooks](https://github.com/Mamoo85/open-data-actor-notebooks): Colab and Jupyter notebooks
+- [apify-actor-samples](https://github.com/Mamoo85/apify-actor-samples): sample CSVs
