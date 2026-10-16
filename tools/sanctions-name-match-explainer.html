@@ -15,6 +15,8 @@
 
 
 
+
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Sanctions Name Match Explainer</h1><p>See how two names compare after transliteration, word-order and honorific normalisation, the way screening tools do.</p><p class="note">Screening lists (OFAC SDN, EU, UN) hold names with transliteration variants, different word order and honorifics. This tool shows how two names compare after the normalising a screener does. It is an explainer, not a legal clearance: it contains no sanctions data, and a low score does not mean a person is not listed.</p>
 <label>Name you have</label><input id="a" placeholder="e.g. Mohammed al-Rashid"><label>Name on the list</label><input id="b" placeholder="e.g. RASHID, Muhammad Al"><button onclick="run()">Compare</button><div id="out"></div><h2>Need this at scale?</h2><p>To screen a real list of names against the official sanctions lists, <a href="https://apify.com/transparent_meteorite/sanctions-screening?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=sanctions-name-match-explainer&amp;fpr=rnmakg">sanctions-screening on the Apify Store</a> runs it in bulk and returns structured data. This page is free and stays free: it runs entirely in your browser, makes no network requests, stores nothing and has no tracking.</p><script>var HON=/^(mr|mrs|ms|miss|dr|prof|sheikh|sheik|haji|hajji|hadji|sir|general|gen|col|colonel|capt|eng|engineer|al|el|bin|ibn|abu|bint|de|van|von|der)$/;
 var VAR={mohammed:"muhammad",mohamed:"muhammad",mohammad:"muhammad",muhamad:"muhammad",ahmad:"ahmed",hussein:"husain",hussain:"husain",husein:"husain",yousef:"yusuf",youssef:"yusuf",yusef:"yusuf",abdul:"abd",abdel:"abd",abdal:"abd",omar:"umar",aleksandr:"alexander",aleksandar:"alexander",sergei:"sergey",serguei:"sergey",wladimir:"vladimir",yuri:"yury",yuriy:"yury",iurii:"yury"};
@@ -37,5 +39,7 @@ function run(){var a=norm(document.getElementById("a").value),b=norm(document.ge
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
+
 <!--oda:rel--><div class="rel"><h2>Related</h2><p><strong>This actor</strong></p><ul><li><a href="../sanctions-screening.html">Screen names against OFAC, EU, UN and UK lists</a></li></ul><p><strong>Data and schema</strong></p><ul><li><a href="../schema/sanctions-screening.html">Screen names against OFAC, EU, UN and UK lists output schema, sample rows and build log</a></li></ul><p><strong>Guides with real sample rows from this actor</strong></p><ul><li><a href="../guides/sanctions-screening-name-check-results.html">Sanctions name screening results: score, list and match count</a></li></ul></div><!--/oda:rel-->
 </body></html>
