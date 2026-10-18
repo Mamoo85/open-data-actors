@@ -1,6 +1,6 @@
 # Open Data Actors
 
-> 35 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+> 40 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
 
 ## Actors
 - [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
@@ -14,6 +14,8 @@
 - [Google Maps scraper: places, ratings and details as a table](https://mamoo85.github.io/open-data-actors/google-maps-places-scraper.html): Google Maps places by search and city: name, category, rating, review count, hours, website, closed flags and description. $1.50 per 1,000 places on the free plan, no subscription.
 - [Amazon Best Sellers top 100 as a table, 21 countries](https://mamoo85.github.io/open-data-actors/amazon-bestsellers.html): Amazon Best Sellers, New Releases, Movers & Shakers, Most Wished For and Gift Ideas ranks in 21 countries as one clean table: rank, ASIN, title, price, rating, reviews, images, category path.
 - [LinkedIn company scraper: size, industry, followers and headquarters, no login](https://mamoo85.github.io/open-data-actors/linkedin-company-scraper.html): Public LinkedIn company page data from a URL, slug, domain or name: industry, size, followers, headquarters, specialties. Real sample output and a same-input comparison.
+- [Facebook pages scraper: followers, category and ad status without login](https://mamoo85.github.io/open-data-actors/facebook-pages-scraper.html): Facebook pages scraper: Give public Facebook Page URLs. Each run returns one row per page: name, category, followers, website, social… $3 per 1,000 pages on the free plan.
+- [Web design leads: local businesses with no or weak websites](https://mamoo85.github.io/open-data-actors/website-redesign-leads.html): Web design leads: Give a business type and a city. The actor finds businesses on Google Maps, checks the website (missing, brok… $4 per 1,000 leads on the free plan.
 - [Startups that just filed an SEC Form D](https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html): Form D filings show who raised money, but EDGAR is hard to filter.
 - [Federal grants and contract awards in one feed](https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html): Grants.gov and USAspending are separate sites with different filters.
 - [Screen names against OFAC, EU, UN and UK lists](https://mamoo85.github.io/open-data-actors/sanctions-screening.html): Manually searching lists for each new customer is slow.
@@ -30,6 +32,8 @@
 - [News alerts for companies and keywords as data](https://mamoo85.github.io/open-data-actors/company-news-monitor.html): News alerts email you; they do not feed a spreadsheet or Slack.
 - [Apple App Store reviews and ratings by country](https://mamoo85.github.io/open-data-actors/app-store-reviews.html): Reading reviews in the app store does not export.
 - [Facebook and Instagram ads from the Meta Ad Library](https://mamoo85.github.io/open-data-actors/meta-ad-library.html): The Meta Ad Library is public, but it has no simple export of ads by keyword or advertiser.
+- [YouTube video scraper: views, likes, dates and tags as a table](https://mamoo85.github.io/open-data-actors/youtube-video-scraper.html): YouTube video scraper: Give search terms, channel or playlist URLs, hashtags or video URLs. Each run returns one row per video: titl… $2 per 1,000 videos on the free plan.
+- [YouTube channel scraper: subscribers, totals and latest videos](https://mamoo85.github.io/open-data-actors/youtube-channel-scraper.html): YouTube channel scraper: Give @handles, channel URLs or IDs. Each run returns a channel row (subscribers, total views, video count, co… $0.8 per 1,000 result rows on the free plan.
 - [TikTok profile scraper: followers, posts and engagement](https://mamoo85.github.io/open-data-actors/tiktok-public-profile-scraper.html): Latest posts and profile stats for public TikTok accounts: views, likes, comments, shares, hashtags, music and engagement rate. $2.50 per 1,000 results on the free plan.
 - [YouTube comments scraper: comments and replies as a table](https://mamoo85.github.io/open-data-actors/youtube-comments-scraper.html): Comments and replies from public YouTube videos and channels: text, likes, reply counts, pinned and creator-heart flags, with sort and keyword filters. $1 per 1,000 comments on the free plan.
 - [YouTube transcript extractor: captions as text, segments, SRT or VTT](https://mamoo85.github.io/open-data-actors/youtube-transcript-extractor.html): Get YouTube video transcripts in 80+ languages as plain text, timed segments, SRT or VTT. No login, no API key. Real sample output, price and a same-input comparison.
@@ -38,6 +42,7 @@
 - [TikTok comments scraper: comments, likes and replies as a table](https://mamoo85.github.io/open-data-actors/tiktok-comments-scraper.html): TikTok comments and replies from public videos: text, likes, reply counts, dates and language. Real sample output and a same-input comparison.
 - [TikTok followers scraper: follower and following lists with profile stats](https://mamoo85.github.io/open-data-actors/tiktok-followers-scraper.html): Lists of followers or following for public TikTok accounts with each profile's counts and flags. Real sample output and an honest comparison.
 - [TikTok hashtag scraper: videos by hashtag or search with engagement stats](https://mamoo85.github.io/open-data-actors/tiktok-hashtag-search-scraper.html): TikTok videos found by hashtag or search phrase: text, views, likes, comments, shares, engagement rate. Real sample output and a same-input comparison.
+- [Threads profile scraper: posts, views and likes without login](https://mamoo85.github.io/open-data-actors/threads-profile-scraper.html): Threads profile scraper: Give public Threads usernames or profile URLs. Each run returns the profile (followers, bio, verified flag) a… $1.5 per 1,000 results on the free plan.
 
 ## Optional
 - [Sitemap](https://mamoo85.github.io/open-data-actors/sitemap.xml)
