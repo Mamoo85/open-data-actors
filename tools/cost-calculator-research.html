@@ -17,6 +17,9 @@
 
 
 
+
+
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Cost Calculator: Monitoring and research</h1><p>Estimate the monthly pay-per-event cost of the monitoring and research actors from their live published prices.</p><p class="note">Estimates what these actors cost on Apify's pay-per-event pricing, using the actual event prices published on each actor page (snapshot taken 2026-10-13, refreshed by script). It counts only the actor's own event charges. It does not include any Apify subscription plan fee, and your free monthly platform credit, discounts or later price changes are not modelled. The Store page is always the authority on price.</p><p class="muted">Other families: <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator-sales.html">Sales and lead generation</a> | <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator-funding.html">Funding, grants and compliance</a> | <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator-hiring.html">Hiring and jobs</a> | <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator-web.html">Websites, SEO and tech</a> | <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator-research.html">Monitoring and research</a></p><div id="tierwrap"><label for="tier">Your Apify plan (some events are cheaper on paid plans)</label><select id="tier"><option value="FREE">Free</option><option value="BRONZE">Starter (Bronze)</option><option value="SILVER">Scale (Silver)</option><option value="GOLD">Business (Gold)</option></select></div><div id="cards"></div><h2>Total per month: <span id="tot"></span></h2><script>document.getElementById("tier")&&document.getElementById("tier").addEventListener("change",function(){calc()})</script><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -44,6 +47,9 @@ var hasTier=SL.some(function(s){return Object.keys(P[s].events).some(function(k)
 if(!hasTier)document.getElementById('tierwrap').style.display='none';
 build();
 </script>
+
+
+
 
 
 
