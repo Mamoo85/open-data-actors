@@ -1,6 +1,6 @@
 # Open Data Actors
 
-> 43 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+> 45 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
 
 ## Actors
 - [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
@@ -17,6 +17,7 @@
 - [Facebook pages scraper: followers, category and ad status without login](https://mamoo85.github.io/open-data-actors/facebook-pages-scraper.html): Facebook pages scraper: Give public Facebook Page URLs. Each run returns one row per page: name, category, followers, website, social… $3 per 1,000 pages on the free plan.
 - [Web design leads: local businesses with no or weak websites](https://mamoo85.github.io/open-data-actors/website-redesign-leads.html): Web design leads: Give a business type and a city. The actor finds businesses on Google Maps, checks the website (missing, brok… $4 per 1,000 leads on the free plan.
 - [YouTube sponsorship tracker: sponsors, promo codes and tracked links](https://mamoo85.github.io/open-data-actors/youtube-sponsorship-tracker.html): YouTube sponsorship tracker: Give channels, videos or brand names. Each run returns one row per detected sponsorship: sponsor brand and do… $2 per 1,000 sponsorships on the free plan.
+- [Google Maps new business radar: newly opened local businesses](https://mamoo85.github.io/open-data-actors/google-maps-new-business-radar.html): Google Maps new business radar: Give a business type and a city. The actor finds listings that look new on Google Maps (few reviews, few phot… $3 per 1,000 new places on the free plan.
 - [Startups that just filed an SEC Form D](https://mamoo85.github.io/open-data-actors/sec-form-d-funding-leads.html): Form D filings show who raised money, but EDGAR is hard to filter.
 - [Federal grants and contract awards in one feed](https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html): Grants.gov and USAspending are separate sites with different filters.
 - [Screen names against OFAC, EU, UN and UK lists](https://mamoo85.github.io/open-data-actors/sanctions-screening.html): Manually searching lists for each new customer is slow.
@@ -46,6 +47,7 @@
 - [Threads profile scraper: posts, views and likes without login](https://mamoo85.github.io/open-data-actors/threads-profile-scraper.html): Threads profile scraper: Give public Threads usernames or profile URLs. Each run returns the profile (followers, bio, verified flag) a… $1.5 per 1,000 results on the free plan.
 - [Instagram posts scraper: captions, likes, comments and carousels](https://mamoo85.github.io/open-data-actors/instagram-posts-scraper.html): Instagram posts scraper: Give public profile or post URLs. Each run returns one row per post: type, caption, hashtags, mentions, likes… $1.2 per 1,000 results on the free plan.
 - [Instagram reels scraper: plays, comments and music](https://mamoo85.github.io/open-data-actors/instagram-reels-scraper.html): Instagram reels scraper: Give public profile or reel URLs. Each run returns one row per reel: caption, hashtags, mentions, plays, like… $1.5 per 1,000 results on the free plan.
+- [YouTube Shorts scraper: views, likes and dates as a table](https://mamoo85.github.io/open-data-actors/youtube-shorts-scraper.html): YouTube Shorts scraper: Give channel URLs or single Shorts URLs. Each run returns one row per Short: title, views, likes, comment cou… $2 per 1,000 Shorts on the free plan.
 
 ## Optional
 - [Sitemap](https://mamoo85.github.io/open-data-actors/sitemap.xml)
