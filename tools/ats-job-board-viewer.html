@@ -21,6 +21,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Greenhouse, Lever and Ashby Job Board Viewer</h1><p>Enter a company board name and list its open jobs from the public Greenhouse, Lever or Ashby job board API, then filter and export to CSV.</p><p class="note">These three applicant tracking systems publish a free, key-free job board API that browsers may call directly. Paste a careers URL (boards.greenhouse.io/name, jobs.lever.co/name, jobs.ashbyhq.com/name) or pick a vendor and type the board name. Companies on Workday, iCIMS, Taleo and others are not covered here, and not every company uses these three.</p>
 <div class="row"><div><label for="v">Vendor</label><select id="v"><option>greenhouse</option><option>lever</option><option>ashby</option></select></div><div><label for="b">Board name or careers URL</label><input id="b" placeholder="airbnb  or  https://jobs.lever.co/spotify"></div></div>
 <button onclick="run()">List jobs</button><button class="alt" onclick="csv()">Download CSV</button><label for="f">Filter (title, location, team)</label><input id="f" placeholder="e.g. engineer, remote" oninput="draw()"><div id="out"></div><h2>Need this at scale?</h2><p>To pull jobs from hundreds of boards at once and keep them refreshed,  <a href="https://apify.com/transparent_meteorite/ats-open-roles?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=ats-job-board-viewer&amp;fpr=rnmakg">ats-open-roles on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/ats-open-roles.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
@@ -56,6 +57,7 @@ function csv(){if(jobs.length)dl("jobs.csv",toCsv([["title","location","team","u
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 

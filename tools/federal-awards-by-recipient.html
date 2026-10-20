@@ -21,6 +21,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Federal Awards by Recipient</h1><p>Search US federal contracts or grants awarded to a company or organisation, using the free USAspending.gov API directly from your browser.</p><p class="note">Calls the public USAspending.gov API (no key needed) straight from your browser; nothing goes through our servers. Name matching is fuzzy and a company can appear under several legal names or subsidiaries, so check the recipient column. Shows the 25 largest awards that had activity in the period (the amount shown is the award's total, not just the period); it is not a complete audit and USAspending data can lag the source agencies.</p>
 <div class="row"><div><label for="n">Recipient name</label><input id="n" placeholder="e.g. Lockheed Martin"></div><div><label for="k">Award kind</label><select id="k"><option value="c">Contracts</option><option value="g">Grants</option></select></div><div><label for="y">Activity period</label><select id="y"><option value="2024">Active since FY2024</option><option value="2022">Active since FY2022</option><option value="2020">Active since FY2020</option></select></div></div>
 <button onclick="run()">Search</button><button class="alt" onclick="csv()">Download CSV</button><div id="out"></div><h2>Need this at scale?</h2><p>To pull open grant opportunities and award records across agencies on a schedule,  <a href="https://apify.com/transparent_meteorite/federal-grants-contracts?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=federal-awards-by-recipient&amp;fpr=rnmakg">federal-grants-contracts on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/federal-grants-contracts.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
@@ -55,6 +56,7 @@ $("n").addEventListener("keydown",function(e){if(e.key==="Enter")run()})</script
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 

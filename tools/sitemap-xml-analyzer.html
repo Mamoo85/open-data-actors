@@ -21,6 +21,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Sitemap XML Analyzer</h1><p>Paste a sitemap.xml and get URL counts by section, duplicates, stale lastmod dates and format problems, all in your browser.</p><p class="note">Browsers block one site from fetching another site's sitemap, so open your sitemap URL, copy the XML (Ctrl+A, Ctrl+C) and paste it here. It handles a normal sitemap (urlset) and a sitemap index. It does not fetch or check whether each URL actually loads.</p>
 <textarea id="in" placeholder="Paste sitemap XML here"></textarea><button onclick="run()">Analyze</button><button class="alt" onclick="csv()">Download URL list (CSV)</button><div id="out"></div><h2>Need this at scale?</h2><p>To crawl a whole site, follow nested sitemaps and check that every link still returns a good status,  <a href="https://apify.com/transparent_meteorite/sitemap-link-inventory?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=sitemap-xml-analyzer&amp;fpr=rnmakg">sitemap-link-inventory on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
@@ -60,6 +61,7 @@ function csv(){if(!rows.length)run();if(rows.length)dl("sitemap-urls.csv",toCsv(
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 

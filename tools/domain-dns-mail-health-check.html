@@ -21,6 +21,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Domain DNS and Email Setup Checker</h1><p>Look up a domain&#x27;s A, MX, NS, SPF and DMARC records and its registration age, using free public DNS and RDAP services.</p><p class="note">Calls two free public services directly from your browser: Cloudflare DNS-over-HTTPS (records) and the RDAP bootstrap at rdap.org (registration date and registrar). Nothing goes through our servers. RDAP data for some country domains is limited or blocked, and DNS cannot tell you what is on the website itself.</p>
 <label for="d">Domain (no https://)</label><input id="d" placeholder="example.com" value=""><button onclick="run()">Check</button><div id="out"></div><h2>Need this at scale?</h2><p>To run DNS, email-provider and registration lookups on a list of thousands of domains,  <a href="https://apify.com/transparent_meteorite/domain-intelligence-lookup?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=domain-dns-mail-health-check&amp;fpr=rnmakg">domain-intelligence-lookup on the Apify Store</a> (<a href="https://mamoo85.github.io/open-data-actors/domain-intelligence-lookup.html">details and free sample CSV</a>) does it in bulk and returns structured data. Estimate the cost first with the <a href="https://mamoo85.github.io/open-data-actors/tools/cost-calculator.html">pay-per-event cost calculator</a>.</p><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
@@ -63,6 +64,7 @@ $("d").addEventListener("keydown",function(e){if(e.key==="Enter")run()})</script
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 
