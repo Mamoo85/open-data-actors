@@ -1,6 +1,6 @@
 # Open Data Actors
 
-> 45 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+> 47 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
 
 ## Actors
 - [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
@@ -26,6 +26,7 @@
 - [Open jobs from Greenhouse, Lever and Ashby career pages](https://mamoo85.github.io/open-data-actors/ats-open-roles.html): Companies host jobs on ATS boards with different APIs per vendor.
 - [Jobs from any Workday career site](https://mamoo85.github.io/open-data-actors/workday-jobs-scraper.html): Workday sites share a platform but each has its own tenant URL.
 - [LinkedIn public job listings without a login](https://mamoo85.github.io/open-data-actors/linkedin-public-jobs.html): LinkedIn job search is hard to export without an account or cookies.
+- [Hiring velocity signals: company growth from job posts](https://mamoo85.github.io/open-data-actors/hiring-velocity-signals.html): Hiring velocity signals: Give company names. Each run finds the careers source and returns open roles, new roles in the last 7 and 30 … $4 per 1,000 company signals on the free plan.
 - [Page-level technical SEO audit as data](https://mamoo85.github.io/open-data-actors/technical-seo-page-audit.html): Spreadsheet audits mix manual checks across many pages.
 - [Every URL in a sitemap, with an optional broken-link check](https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html): Before a migration you need the full URL inventory.
 - [What is this website built on?](https://mamoo85.github.io/open-data-actors/website-tech-stack-detector.html): Checking sites one at a time in a browser extension does not scale to a list.
@@ -48,6 +49,7 @@
 - [Instagram posts scraper: captions, likes, comments and carousels](https://mamoo85.github.io/open-data-actors/instagram-posts-scraper.html): Instagram posts scraper: Give public profile or post URLs. Each run returns one row per post: type, caption, hashtags, mentions, likes… $1.2 per 1,000 results on the free plan.
 - [Instagram reels scraper: plays, comments and music](https://mamoo85.github.io/open-data-actors/instagram-reels-scraper.html): Instagram reels scraper: Give public profile or reel URLs. Each run returns one row per reel: caption, hashtags, mentions, plays, like… $1.5 per 1,000 results on the free plan.
 - [YouTube Shorts scraper: views, likes and dates as a table](https://mamoo85.github.io/open-data-actors/youtube-shorts-scraper.html): YouTube Shorts scraper: Give channel URLs or single Shorts URLs. Each run returns one row per Short: title, views, likes, comment cou… $2 per 1,000 Shorts on the free plan.
+- [Google Maps listing change monitor: ratings, hours and closures](https://mamoo85.github.io/open-data-actors/maps-listing-change-monitor.html): Google Maps listing change monitor: Run it on a saved set of places over time. Each run compares against the last and returns events with type, s… $3 per 1,000 place signals on the free plan.
 
 ## Optional
 - [Sitemap](https://mamoo85.github.io/open-data-actors/sitemap.xml)
@@ -56,11 +58,11 @@
 ## More (auto)
 - [Updates feed (RSS)](https://mamoo85.github.io/open-data-actors/updates/feed.xml)
 - [Guides with real sample rows](https://mamoo85.github.io/open-data-actors/guides/index.html)
-- [SEC Form D Startup Funding Leads vs SEC EDGAR Form D Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/sec-form-d-funding-leads-vs-sec-edgar-form-d-scraper.html)
-- [WARN Layoff Notices vs US WARN Layoff Notice Aggregator & Delta Monitor (OR/TX API) on Apify: price, usage and](https://mamoo85.github.io/open-data-actors/compare/warn-layoff-alerts-vs-warn-layoff-aggregator.html)
+- [SEC Form D Scraper vs SEC EDGAR Form D Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/sec-form-d-funding-leads-vs-sec-edgar-form-d-scraper.html)
+- [WARN Layoff Notices Scraper vs US WARN Layoff Notice Aggregator & Delta Monitor (OR/TX API) on Apify: price, u](https://mamoo85.github.io/open-data-actors/compare/warn-layoff-alerts-vs-warn-layoff-aggregator.html)
 - [Federal Grants & Contracts Finder vs Grants.gov Federal Grants Scraper on Apify: price, usage and output compa](https://mamoo85.github.io/open-data-actors/compare/federal-grants-contracts-vs-grants-gov-scraper.html)
 - [Sitemap Extractor & Broken Link Checker vs Sitemap Extractor on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/sitemap-link-inventory-vs-sitemap-extractor.html)
-- [Website Tech Stack Detector vs Website Tech Stack Scanner on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/website-tech-stack-detector-vs-website-tech-stack-scanner.html)
+- [Tech Stack Detector vs Website Tech Stack Scanner on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/website-tech-stack-detector-vs-website-tech-stack-scanner.html)
 - [Greenhouse & Lever Jobs Scraper vs Greenhouse, Lever & Ashby Job Scraper API on Apify: price, usage and output](https://mamoo85.github.io/open-data-actors/compare/ats-open-roles-vs-greenhouse-lever-ashby-job-scraper.html)
 - [FMCSA New Motor Carrier Leads vs FMCSA New Carrier Feed on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/fmcsa-new-carrier-leads-vs-fmcsa-new-carrier-feed.html)
 - [iOS App Store Reviews Scraper vs App Store Reviews Scraper API on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/app-store-reviews-vs-appstore-reviews-scraper.html)
