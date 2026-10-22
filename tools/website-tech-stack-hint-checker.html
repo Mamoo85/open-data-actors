@@ -26,6 +26,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Website Tech Stack Hint Checker</h1><p>Paste a page source and see which CMS, frameworks, analytics and widgets it uses, detected in your browser.</p><p class="note">Browsers block one site from fetching another site's pages, so this tool cannot fetch a URL for you. Open the site, press Ctrl+U (View Source), copy everything, paste it below. Detection is by signature strings in the HTML, so it shows hints, not proof.</p>
 <textarea id="src" placeholder="Paste page source here"></textarea><button onclick="run()">Detect</button><div id="out"></div><h2>Need this at scale?</h2><p>To check hundreds of live sites without pasting source by hand, <a href="https://apify.com/transparent_meteorite/website-tech-stack-detector?utm_source=open-data-actors&amp;utm_medium=tool&amp;utm_campaign=website-tech-stack-hint-checker&amp;fpr=rnmakg">website-tech-stack-detector on the Apify Store</a> runs it in bulk and returns structured data. This page is free and stays free: it runs entirely in your browser, makes no network requests, stores nothing and has no tracking.</p><script>var S=[["WordPress",/wp-content|wp-includes/i],["Shopify",/cdn\.shopify\.com|Shopify\.theme|myshopify\.com/i],["Wix",/static\.parastorage\.com|wixstatic\.com/i],["Squarespace",/static1\.squarespace\.com|squarespace-cdn/i],["Webflow",/data-wf-page|assets-global\.website-files\.com/i],["Next.js",/__NEXT_DATA__|\/_next\/static/i],["Nuxt",/__NUXT__|\/_nuxt\//i],["React",/data-reactroot|react-dom/i],["Vue",/data-v-[0-9a-f]{6,}|vue(\.min)?\.js/i],["Angular",/ng-version=|<app-root/i],["jQuery",/jquery[.-]?[0-9.]*(min)?\.js/i],["Bootstrap",/bootstrap(\.min)?\.(css|js)/i],["Tailwind CSS",/cdn\.tailwindcss\.com/i],["Google Analytics",/google-analytics\.com|gtag\(/i],["Google Tag Manager",/googletagmanager\.com\/gtm\.js|GTM-[A-Z0-9]+/i],["Meta Pixel",/connect\.facebook\.net\/[^"']*fbevents|fbq\(/i],["HubSpot",/js\.hs-scripts\.com|hs-analytics/i],["Intercom",/widget\.intercom\.io|intercomSettings/i],["Stripe",/js\.stripe\.com/i],["Cloudflare",/cdn-cgi\//i],["Drupal",/Drupal\.settings|sites\/default\/files/i],["Joomla",/\/media\/jui\/|content="Joomla/i],["Magento",/Magento_|mage\/cookies/i],["WooCommerce",/woocommerce/i],["Ghost",/content="Ghost/i],["Gatsby",/___gatsby/i],["Hotjar",/static\.hotjar\.com/i],["Klaviyo",/klaviyo\.com/i],["Mailchimp",/chimpstatic\.com|list-manage\.com/i],["Calendly",/assets\.calendly\.com|calendly\.com\/embed/i]];
 function esc(s){return s.replace(/[&<>]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;"}[c]})}
@@ -45,6 +46,7 @@ function run(){var t=document.getElementById("src").value,o=document.getElementB
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 

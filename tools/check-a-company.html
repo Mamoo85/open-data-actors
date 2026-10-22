@@ -24,6 +24,7 @@
 
 
 
+
 <p><a href="https://mamoo85.github.io/open-data-actors/">Open Data Actors</a> / free tools</p><h1>Check a Company: Free Open-Source Lookup</h1><p>Look up a company in GLEIF, Wikidata, USAspending, job boards, Hacker News and DNS from your browser, with a clear list of what it cannot check.</p><p class="note">Looks a company up across free, key-free public sources, directly from your browser: GLEIF (legal entity registry), Wikidata, USAspending.gov, public job board APIs, Hacker News search, and (if you give a domain) public DNS and RDAP. It is a quick first look, not due diligence. The section at the bottom lists what it cannot do.</p><div class="row"><div><label for="n">Company name</label><input id="n" placeholder="e.g. Stripe"></div><div><label for="d">Website domain (optional)</label><input id="d" placeholder="stripe.com"></div></div><button onclick="run()">Check company</button><div id="out"></div><p class="muted">Disclosure: we build and maintain the Apify actors linked here. This page is free, has no tracking or analytics, and does not store anything; inputs stay in your browser except where the page says it calls a named public API.</p><script>
 var $=function(i){return document.getElementById(i)};
 function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
@@ -88,6 +89,7 @@ $('n').addEventListener('keydown',function(e){if(e.key==='Enter')run()});$('d').
 
 
 <p class="aff-disclosure" style="font-size:.8em;opacity:.75;text-align:center;margin:1em 0">Some links are affiliate links.</p>
+
 
 
 
