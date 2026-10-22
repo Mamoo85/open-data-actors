@@ -1,6 +1,6 @@
 # Open Data Actors
 
-> 47 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
+> 48 Apify actors that turn public data into clean tables, each with a free sample CSV. Built and maintained by the publisher.
 
 ## Actors
 - [Local businesses with no website, from OpenStreetMap](https://mamoo85.github.io/open-data-actors/local-business-leads.html): Businesses without a site are the warmest prospects for a website pitch.
@@ -27,6 +27,7 @@
 - [Jobs from any Workday career site](https://mamoo85.github.io/open-data-actors/workday-jobs-scraper.html): Workday sites share a platform but each has its own tenant URL.
 - [LinkedIn public job listings without a login](https://mamoo85.github.io/open-data-actors/linkedin-public-jobs.html): LinkedIn job search is hard to export without an account or cookies.
 - [Hiring velocity signals: company growth from job posts](https://mamoo85.github.io/open-data-actors/hiring-velocity-signals.html): Hiring velocity signals: Give company names. Each run finds the careers source and returns open roles, new roles in the last 7 and 30 … $4 per 1,000 company signals on the free plan.
+- [Remote jobs from 6 job boards in one deduped table](https://mamoo85.github.io/open-data-actors/remote-jobs-aggregator.html): Remote jobs are spread over many boards, each with its own format, and the same job is often posted on three of them.
 - [Page-level technical SEO audit as data](https://mamoo85.github.io/open-data-actors/technical-seo-page-audit.html): Spreadsheet audits mix manual checks across many pages.
 - [Every URL in a sitemap, with an optional broken-link check](https://mamoo85.github.io/open-data-actors/sitemap-link-inventory.html): Before a migration you need the full URL inventory.
 - [What is this website built on?](https://mamoo85.github.io/open-data-actors/website-tech-stack-detector.html): Checking sites one at a time in a browser extension does not scale to a list.
@@ -65,11 +66,11 @@
 - [Tech Stack Detector vs Website Tech Stack Scanner on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/website-tech-stack-detector-vs-website-tech-stack-scanner.html)
 - [Greenhouse & Lever Jobs Scraper vs Greenhouse, Lever & Ashby Job Scraper API on Apify: price, usage and output](https://mamoo85.github.io/open-data-actors/compare/ats-open-roles-vs-greenhouse-lever-ashby-job-scraper.html)
 - [FMCSA New Motor Carrier Leads vs FMCSA New Carrier Feed on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/fmcsa-new-carrier-leads-vs-fmcsa-new-carrier-feed.html)
-- [iOS App Store Reviews Scraper vs App Store Reviews Scraper API on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/app-store-reviews-vs-appstore-reviews-scraper.html)
+- [App Store Reviews Scraper vs App Store Reviews Scraper API on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/app-store-reviews-vs-appstore-reviews-scraper.html)
 - [YouTube Transcript Extractor vs YouTube Video Transcript on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/youtube-transcript-extractor-vs-youtube-video-transcript.html)
 - [Instagram Profile Scraper vs Instagram Profile Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/instagram-public-profile-scraper-vs-instagram-profile-scraper.html)
-- [LinkedIn Company Scraper (No Login) vs LinkedIn Company Details Scraper (No Cookies) on Apify: price, usage an](https://mamoo85.github.io/open-data-actors/compare/linkedin-company-scraper-vs-linkedin-company.html)
-- [LinkedIn Posts Search Scraper (No Login) vs Linkedin Post Search Scraper (No Cookies) on Apify: price, usage a](https://mamoo85.github.io/open-data-actors/compare/linkedin-posts-search-vs-linkedin-post-search.html)
+- [LinkedIn Company Scraper vs LinkedIn Company Details Scraper (No Cookies) on Apify: price, usage and output co](https://mamoo85.github.io/open-data-actors/compare/linkedin-company-scraper-vs-linkedin-company.html)
+- [LinkedIn Posts Search Scraper vs Linkedin Post Search Scraper (No Cookies) on Apify: price, usage and output c](https://mamoo85.github.io/open-data-actors/compare/linkedin-posts-search-vs-linkedin-post-search.html)
 - [TikTok Comments Scraper vs TikTok Comments Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/tiktok-comments-scraper-vs-tiktok-comments-scraper.html)
 - [TikTok Followers Scraper vs TikTok Followers Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/tiktok-followers-scraper-vs-tiktok-followers-scraper.html)
 - [TikTok Scraper vs TikTok Hashtag Scraper on Apify: price, usage and output compared](https://mamoo85.github.io/open-data-actors/compare/tiktok-hashtag-search-scraper-vs-tiktok-hashtag-scraper.html)
