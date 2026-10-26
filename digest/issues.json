@@ -1,5 +1,630 @@
 [
  {
+  "n": 2,
+  "date": "2026-10-26",
+  "hash": "85d8f6cf871ed74f",
+  "sources": [
+   {
+    "slug": "amazon-bestsellers",
+    "title": "Amazon Best Sellers top 100 as a table, 21 countries",
+    "rows": 10,
+    "newest": "2026-10-13",
+    "datecol": "scrapedAt",
+    "avgcov": 90.5,
+    "top": null
+   },
+   {
+    "slug": "amazon-product-search",
+    "title": "Amazon product search results as a clean table",
+    "rows": 4,
+    "newest": "2026-10-09",
+    "datecol": "scrapedAt",
+    "avgcov": 92.6,
+    "top": [
+     "brand",
+     "Logitech",
+     2,
+     4
+    ]
+   },
+   {
+    "slug": "app-store-reviews",
+    "title": "Apple App Store reviews and ratings by country",
+    "rows": 9,
+    "newest": "2026-01-12",
+    "datecol": "date",
+    "avgcov": 38.6,
+    "top": [
+     "appName",
+     "Spotify: Music and Podcasts",
+     9,
+     9
+    ]
+   },
+   {
+    "slug": "ats-open-roles",
+    "title": "Open jobs from Greenhouse, Lever and Ashby career pages",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "postedAt",
+    "avgcov": 94.4,
+    "top": [
+     "department",
+     "Software Engineering",
+     3,
+     12
+    ]
+   },
+   {
+    "slug": "building-permits-leads",
+    "title": "Building permits and violations from US city portals",
+    "rows": 12,
+    "newest": "2026-09-09",
+    "datecol": "applicationDate",
+    "avgcov": 100.0,
+    "top": [
+     "permitType",
+     "RENOVATION/ALTERATION",
+     10,
+     12
+    ]
+   },
+   {
+    "slug": "city-council-agendas",
+    "title": "City council agenda items and votes, searchable data",
+    "rows": 12,
+    "newest": "2026-10-08",
+    "datecol": "meetingDate",
+    "avgcov": 91.2,
+    "top": [
+     "city",
+     "Seattle, WA",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "company-enrichment-by-domain",
+    "title": "Turn a list of domains into company profiles",
+    "rows": 8,
+    "newest": "2026-10-11",
+    "datecol": "fetchedAt",
+    "avgcov": 70.8,
+    "top": [
+     "language",
+     "en-US",
+     4,
+     8
+    ]
+   },
+   {
+    "slug": "company-news-monitor",
+    "title": "News alerts for companies and keywords as data",
+    "rows": 11,
+    "newest": "2026-10-11",
+    "datecol": "publishedAt",
+    "avgcov": 92.1,
+    "top": [
+     "country",
+     "US",
+     7,
+     11
+    ]
+   },
+   {
+    "slug": "developer-signals",
+    "title": "Hacker News, npm and PyPI signals for developer-tool teams",
+    "rows": 4,
+    "newest": "2026-10-09",
+    "datecol": "createdAt",
+    "avgcov": 63.0,
+    "top": [
+     "source",
+     "hackernews",
+     3,
+     4
+    ]
+   },
+   {
+    "slug": "domain-intelligence-lookup",
+    "title": "WHOIS/RDAP, DNS, SSL and security headers in one call",
+    "rows": 8,
+    "newest": "2026-10-11",
+    "datecol": "checkedAt",
+    "avgcov": 96.2,
+    "top": [
+     "dmarcPolicy",
+     "quarantine",
+     4,
+     8
+    ]
+   },
+   {
+    "slug": "facebook-pages-scraper",
+    "title": "Facebook pages scraper: followers, category and ad status without login",
+    "rows": 10,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 77.9,
+    "top": null
+   },
+   {
+    "slug": "federal-grants-contracts",
+    "title": "Federal grants and contract awards in one feed",
+    "rows": 12,
+    "newest": "2026-09-10",
+    "datecol": "postedDate",
+    "avgcov": 92.7,
+    "top": [
+     "agency",
+     "U.S. Mission to Tunisia",
+     2,
+     12
+    ]
+   },
+   {
+    "slug": "fmcsa-new-carrier-leads",
+    "title": "New trucking companies, the week they get authority",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "registered_date_iso",
+    "avgcov": 94.0,
+    "top": [
+     "state",
+     "CA",
+     4,
+     12
+    ]
+   },
+   {
+    "slug": "google-maps-new-business-radar",
+    "title": "Google Maps new business radar: newly opened local businesses",
+    "rows": 5,
+    "newest": "2026-10-14",
+    "datecol": "scrapedAt",
+    "avgcov": 92.9,
+    "top": null
+   },
+   {
+    "slug": "google-maps-places-scraper",
+    "title": "Google Maps scraper: places, ratings and details as a table",
+    "rows": 10,
+    "newest": "2026-10-14",
+    "datecol": "scrapedAt",
+    "avgcov": 79.4,
+    "top": null
+   },
+   {
+    "slug": "hiring-velocity-signals",
+    "title": "Hiring velocity signals: company growth from job posts",
+    "rows": 5,
+    "newest": "2026-10-18",
+    "datecol": "checkedAt",
+    "avgcov": 97.3,
+    "top": null
+   },
+   {
+    "slug": "instagram-posts-scraper",
+    "title": "Instagram posts scraper: captions, likes, comments and carousels",
+    "rows": 10,
+    "newest": "2026-10-17",
+    "datecol": "timestamp",
+    "avgcov": 88.2,
+    "top": null
+   },
+   {
+    "slug": "instagram-public-profile-scraper",
+    "title": "Instagram public profile scraper: followers, posts and engagement without login",
+    "rows": 2,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 96.4,
+    "top": null
+   },
+   {
+    "slug": "instagram-reels-scraper",
+    "title": "Instagram reels scraper: plays, comments and music",
+    "rows": 10,
+    "newest": "2026-10-17",
+    "datecol": "timestamp",
+    "avgcov": 86.4,
+    "top": null
+   },
+   {
+    "slug": "linkedin-company-scraper",
+    "title": "LinkedIn company scraper: size, industry, followers and headquarters, no login",
+    "rows": 4,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 93.2,
+    "top": null
+   },
+   {
+    "slug": "linkedin-posts-search",
+    "title": "LinkedIn posts scraper: search public posts by keyword, no login",
+    "rows": 10,
+    "newest": "2026-10-15",
+    "datecol": "publishedAt",
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "linkedin-public-jobs",
+    "title": "LinkedIn public job listings without a login",
+    "rows": 4,
+    "newest": "2026-10-06",
+    "datecol": "postedAt",
+    "avgcov": 86.7,
+    "top": [
+     "seniority",
+     "Not Applicable",
+     4,
+     4
+    ]
+   },
+   {
+    "slug": "local-business-leads",
+    "title": "Local businesses with no website, from OpenStreetMap",
+    "rows": 12,
+    "newest": "2025-12-19",
+    "datecol": "lastEdited",
+    "avgcov": 72.2,
+    "top": [
+     "category",
+     "dentist",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "maps-listing-change-monitor",
+    "title": "Google Maps listing change monitor: ratings, hours and closures",
+    "rows": 10,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 64.7,
+    "top": null
+   },
+   {
+    "slug": "meta-ad-library",
+    "title": "Facebook and Instagram ads from the Meta Ad Library",
+    "rows": 4,
+    "newest": "2026-09-01",
+    "datecol": "startDate",
+    "avgcov": 94.1,
+    "top": [
+     "mediaType",
+     "image",
+     4,
+     4
+    ]
+   },
+   {
+    "slug": "new-business-filings",
+    "title": "New LLCs and corporations by state",
+    "rows": 12,
+    "newest": "2026-10-10",
+    "datecol": "filingDate",
+    "avgcov": 100.0,
+    "top": [
+     "state",
+     "CO",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "remote-jobs-aggregator",
+    "title": "Remote jobs from 6 job boards in one deduped table",
+    "rows": 10,
+    "newest": "2026-10-13",
+    "datecol": "postedAt",
+    "avgcov": 88.1,
+    "top": null
+   },
+   {
+    "slug": "sam-gov-opportunities",
+    "title": "SAM.gov contract opportunities as a clean feed",
+    "rows": 10,
+    "newest": "2026-12-23",
+    "datecol": "responseDeadline",
+    "avgcov": 94.2,
+    "top": null
+   },
+   {
+    "slug": "sanctions-screening",
+    "title": "Screen names against OFAC, EU, UN and UK lists",
+    "rows": 6,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 79.4,
+    "top": [
+     "status",
+     "clear",
+     3,
+     6
+    ]
+   },
+   {
+    "slug": "sec-form-d-funding-leads",
+    "title": "Startups that just filed an SEC Form D",
+    "rows": 12,
+    "newest": "2026-10-09",
+    "datecol": "filingDate",
+    "avgcov": 91.9,
+    "top": [
+     "industryGroup",
+     "Other Technology",
+     5,
+     12
+    ]
+   },
+   {
+    "slug": "shopify-store-leads",
+    "title": "Shopify store details: theme, apps, products",
+    "rows": 6,
+    "newest": "2026-10-11",
+    "datecol": "checkedAt",
+    "avgcov": 79.2,
+    "top": [
+     "country",
+     "US",
+     5,
+     5
+    ]
+   },
+   {
+    "slug": "sitemap-link-inventory",
+    "title": "Every URL in a sitemap, with an optional broken-link check",
+    "rows": 12,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 100.0,
+    "top": [
+     "pathGroup",
+     "/blog",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "technical-seo-page-audit",
+    "title": "Page-level technical SEO audit as data",
+    "rows": 5,
+    "newest": "2026-10-11",
+    "datecol": "auditedAt",
+    "avgcov": 92.2,
+    "top": [
+     "lang",
+     "en",
+     4,
+     5
+    ]
+   },
+   {
+    "slug": "threads-profile-scraper",
+    "title": "Threads profile scraper: posts, views and likes without login",
+    "rows": 10,
+    "newest": "2026-10-12",
+    "datecol": "createdAt",
+    "avgcov": 92.9,
+    "top": null
+   },
+   {
+    "slug": "tiktok-comments-scraper",
+    "title": "TikTok comments scraper: comments, likes and replies as a table",
+    "rows": 50,
+    "newest": "2022-08-22",
+    "datecol": "createTimeISO",
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "tiktok-followers-scraper",
+    "title": "TikTok followers scraper: follower and following lists with profile stats",
+    "rows": 20,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "tiktok-hashtag-search-scraper",
+    "title": "TikTok hashtag scraper: videos by hashtag or search with engagement stats",
+    "rows": 20,
+    "newest": "2026-10-11",
+    "datecol": "createTimeISO",
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "tiktok-public-profile-scraper",
+    "title": "TikTok profile scraper: followers, posts and engagement",
+    "rows": 5,
+    "newest": "2026-10-14",
+    "datecol": "scrapedAt",
+    "avgcov": 98.8,
+    "top": null
+   },
+   {
+    "slug": "warn-layoff-alerts",
+    "title": "WARN layoff notices from 7 states as clean rows",
+    "rows": 12,
+    "newest": "2026-10-06",
+    "datecol": "notice_date",
+    "avgcov": 100.0,
+    "top": [
+     "state",
+     "CA",
+     12,
+     12
+    ]
+   },
+   {
+    "slug": "website-contact-extractor",
+    "title": "Emails and phones from a list of company websites",
+    "rows": 5,
+    "newest": "2026-10-11",
+    "datecol": "scrapedAt",
+    "avgcov": 70.4,
+    "top": [
+     "status",
+     "ok",
+     5,
+     5
+    ]
+   },
+   {
+    "slug": "website-redesign-leads",
+    "title": "Web design leads: local businesses with no or weak websites",
+    "rows": 4,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "website-tech-stack-detector",
+    "title": "What is this website built on?",
+    "rows": 10,
+    "newest": "2026-10-11",
+    "datecol": "fetchedAt",
+    "avgcov": 100.0,
+    "top": [
+     "server",
+     "cloudflare",
+     6,
+     10
+    ]
+   },
+   {
+    "slug": "workday-jobs-scraper",
+    "title": "Jobs from any Workday career site",
+    "rows": 12,
+    "newest": "2026-10-06",
+    "datecol": "postedOn",
+    "avgcov": 86.2,
+    "top": [
+     "country",
+     "Israel",
+     1,
+     4
+    ]
+   },
+   {
+    "slug": "youtube-channel-scraper",
+    "title": "YouTube channel scraper: subscribers, totals and latest videos",
+    "rows": 10,
+    "newest": "2026-10-18",
+    "datecol": "scrapedAt",
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "youtube-comments-scraper",
+    "title": "YouTube comments scraper: comments and replies as a table",
+    "rows": 10,
+    "newest": "2026-10-14",
+    "datecol": "scrapedAt",
+    "avgcov": 98.3,
+    "top": null
+   },
+   {
+    "slug": "youtube-shorts-scraper",
+    "title": "YouTube Shorts scraper: views, likes and dates as a table",
+    "rows": 10,
+    "newest": "2026-10-18",
+    "datecol": "scrapedAt",
+    "avgcov": 94.4,
+    "top": null
+   },
+   {
+    "slug": "youtube-sponsorship-tracker",
+    "title": "YouTube sponsorship tracker: sponsors, promo codes and tracked links",
+    "rows": 10,
+    "newest": "2026-10-13",
+    "datecol": "publishedAt",
+    "avgcov": 92.7,
+    "top": null
+   },
+   {
+    "slug": "youtube-transcript-extractor",
+    "title": "YouTube transcript extractor: captions as text, segments, SRT or VTT",
+    "rows": 1,
+    "newest": null,
+    "datecol": null,
+    "avgcov": 100.0,
+    "top": null
+   },
+   {
+    "slug": "youtube-video-scraper",
+    "title": "YouTube video scraper: views, likes, dates and tags as a table",
+    "rows": 10,
+    "newest": "2026-05-15",
+    "datecol": "date",
+    "avgcov": 96.1,
+    "top": null
+   }
+  ],
+  "headlines": [
+   [
+    "warn-layoff-alerts",
+    "12 WARN notices in the sample cover 416 workers across 1 state(s). The largest is AMF Bowling Centers, Inc. Castle Park (130 workers, notice dated 2026-10-05)."
+   ],
+   [
+    "sec-form-d-funding-leads",
+    "12 Form D filings: median stated offering $5,000,000, $252,216,588 sold in total, newest filed 2026-10-09."
+   ],
+   [
+    "fmcsa-new-carrier-leads",
+    "12 newly registered carriers from 9 states; median fleet is 1 power unit(s)."
+   ],
+   [
+    "ats-open-roles",
+    "9 of 12 sampled postings (75%) state a salary range."
+   ],
+   [
+    "domain-intelligence-lookup",
+    "Of 8 domains checked, 8 publish SPF and 8 publish DMARC."
+   ],
+   [
+    "federal-grants-contracts",
+    "12 opportunities in the sample; the earliest close date is 2026-10-16."
+   ],
+   [
+    "new-business-filings",
+    "12 new filings, newest dated 2026-10-10, from 1 state(s)."
+   ]
+  ],
+  "changes": [
+   "New source: Amazon Best Sellers top 100 as a table, 21 countries.",
+   "New source: Facebook pages scraper: followers, category and ad status without login.",
+   "New source: Google Maps new business radar: newly opened local businesses.",
+   "New source: Google Maps scraper: places, ratings and details as a table.",
+   "New source: Hiring velocity signals: company growth from job posts.",
+   "New source: Instagram posts scraper: captions, likes, comments and carousels.",
+   "New source: Instagram public profile scraper: followers, posts and engagement without login.",
+   "New source: Instagram reels scraper: plays, comments and music.",
+   "New source: LinkedIn company scraper: size, industry, followers and headquarters, no login.",
+   "New source: LinkedIn posts scraper: search public posts by keyword, no login.",
+   "New source: Google Maps listing change monitor: ratings, hours and closures.",
+   "New source: Remote jobs from 6 job boards in one deduped table.",
+   "New source: SAM.gov contract opportunities as a clean feed.",
+   "New source: Threads profile scraper: posts, views and likes without login.",
+   "New source: TikTok comments scraper: comments, likes and replies as a table.",
+   "New source: TikTok followers scraper: follower and following lists with profile stats.",
+   "New source: TikTok hashtag scraper: videos by hashtag or search with engagement stats.",
+   "New source: TikTok profile scraper: followers, posts and engagement.",
+   "New source: Web design leads: local businesses with no or weak websites.",
+   "New source: YouTube channel scraper: subscribers, totals and latest videos.",
+   "New source: YouTube comments scraper: comments and replies as a table.",
+   "New source: YouTube Shorts scraper: views, likes and dates as a table.",
+   "New source: YouTube sponsorship tracker: sponsors, promo codes and tracked links.",
+   "New source: YouTube transcript extractor: captions as text, segments, SRT or VTT.",
+   "New source: YouTube video scraper: views, likes, dates and tags as a table."
+  ]
+ },
+ {
   "n": 1,
   "date": "2026-10-13",
   "hash": "45f42c44075984ab",
