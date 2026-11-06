@@ -4,6 +4,25 @@ Landing pages, free sample data and guides for 24 pay-per-result Apify actors th
 
 Live site: https://mamoo85.github.io/open-data-actors/
 
+## Most-used actors
+
+Each actor has a prefilled example input, so the Store page runs as-is: open it, press **Start**, and the first results land in the Output tab. If one did its job (or did not), an honest note on its Reviews tab helps the next person decide.
+
+| Actor | What it returns |
+|---|---|
+| [Email Extractor (Role & Named): Contact Details, Phones](https://apify.com/transparent_meteorite/website-contact-extractor?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | emails, phones and socials from a list of websites |
+| [Businesses Without Websites (OpenStreetMap): Local Leads](https://apify.com/transparent_meteorite/local-business-leads?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | local businesses (including ones with no website) from OpenStreetMap open data |
+| [Google Maps Scraper: Business Leads, Phones, Emails, Reviews](https://apify.com/transparent_meteorite/google-maps-places-scraper?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | Google Maps businesses by keyword and place: phone, website, rating, hours |
+| [TikTok Profile Scraper: Followers, Bio Emails, Recent Videos](https://apify.com/transparent_meteorite/tiktok-public-profile-scraper?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | TikTok creator profiles, bio emails and recent videos |
+| [Amazon Product Sales Signals: Bought Past Month, Badges](https://apify.com/transparent_meteorite/amazon-product-search?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | Amazon search results with sales signals and badges |
+| [Amazon Best Sellers Scraper: Ranks, Prices, 21 Countries](https://apify.com/transparent_meteorite/amazon-bestsellers?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | Amazon Best Sellers, New Releases and Movers across countries |
+| [FMCSA Carrier Delta Feed: Daily New MC and USDOT Numbers](https://apify.com/transparent_meteorite/fmcsa-new-carrier-leads?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | new trucking carriers (MC / USDOT) from the official FMCSA census |
+| [Domain SPF DMARC & WHOIS Lookup: RDAP, DNS, SSL](https://apify.com/transparent_meteorite/domain-intelligence-lookup?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | bulk WHOIS/RDAP, DNS, SPF/DMARC and SSL lookup |
+| [LinkedIn Company Scraper: Company Data Without Login](https://apify.com/transparent_meteorite/linkedin-company-scraper?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | company data from public LinkedIn pages, no login |
+| [TikTok Followers Scraper: Follower and Following Lists](https://apify.com/transparent_meteorite/tiktok-followers-scraper?utm_source=github&utm_medium=readme&utm_campaign=oda_top10) | follower and following lists of public TikTok profiles |
+
+All actors, grouped by use case: [ACTORS_BY_USE_CASE.md](ACTORS_BY_USE_CASE.md).
+
 ## Actors
 
 | Landing page | What it does | Run it |
